@@ -1,0 +1,160 @@
+{
+  "shastraId": "bhagavad-gita",
+  "metadata": {
+    "title": {
+      "sa": "श्रीमद्भगवद्गीता",
+      "en": "Bhagavad Gita"
+    },
+    "tradition": "Vedanta"
+  },
+  "chapters": {
+    "1": {
+      "number": 1,
+      "title": {
+        "sa": "अर्जुनविषादयोग",
+        "en": "Arjuna’s Despair"
+      },
+      "verses": {
+        "1": {
+          "number": 1,
+          "location": {
+            "chapter": 1,
+            "verse": 1
+          },
+          "languages": {
+            "sa": {
+              "text": "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ।",
+              "transliteration": "dharmakṣetre kurukṣetre samavetā yuyutsavaḥ |"
+            },
+            "en": {
+              "text": "On the field of dharma, at Kurukshetra, assembled and eager to fight…",
+              "transliteration": null
+            }
+          },
+          "commentaries": {
+            "shankara": {
+              "author": {
+                "id": "shankara",
+                "name": "Adi Shankaracharya",
+                "tradition": "Advaita Vedanta"
+              },
+              "languages": {
+                "en": {
+                  "text": "Shankara explains that the term ‘field of dharma’ indicates a sacred moral setting."
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "number": 2,
+          "location": {
+            "chapter": 1,
+            "verse": 2
+          },
+          "languages": {
+            "sa": {
+              "text": "सञ्जय उवाच दृष्ट्वा तु पाण्डवानीकम् ।",
+              "transliteration": "sañjaya uvāca dṛṣṭvā tu pāṇḍavānīkam |"
+            },
+            "en": {
+              "text": "Sanjaya said: Seeing the army of the Pandavas arranged in formation…",
+              "transliteration": null
+            }
+          }
+        },
+        "3": {
+          "number": 3,
+          "location": {
+            "chapter": 1,
+            "verse": 3
+          },
+          "languages": {
+            "sa": {
+              "text": "सञ्जय उवाच दृष्ट्वा तु पाण्डवानीकम् ।",
+              "transliteration": "sañjaya uvāca dṛṣṭvā tu pāṇḍavānīkam |"
+            },
+            "en": {
+              "text": "Sanjaya said: Seeing the army of the Pandavas arranged in formation…",
+              "transliteration": null
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "number": 2,
+      "title": {
+        "sa": "अर्जुनविषादयोग",
+        "en": "Arjuna’s Despair"
+      },
+      "verses": {
+        "1": {
+          "number": 1,
+          "location": {
+            "chapter": 2,
+            "verse": 1
+          },
+          "languages": {
+            "sa": {
+              "text": "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ।",
+              "transliteration": "dharmakṣetre kurukṣetre samavetā yuyutsavaḥ |"
+            },
+            "en": {
+              "text": "On the field of dharma, at Kurukshetra, assembled and eager to fight…",
+              "transliteration": null
+            }
+          },
+          "commentaries": {
+            "shankara": {
+              "author": {
+                "id": "shankara",
+                "name": "Adi Shankaracharya",
+                "tradition": "Advaita Vedanta"
+              },
+              "languages": {
+                "en": {
+                  "text": "Shankara explains that the term ‘field of dharma’ indicates a sacred moral setting."
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "number": 2,
+          "location": {
+            "chapter": 2,
+            "verse": 2
+          },
+          "languages": {
+            "sa": {
+              "text": "सञ्जय उवाच दृष्ट्वा तु पाण्डवानीकम् ।",
+              "transliteration": "sañjaya uvāca dṛṣṭvā tu pāṇḍavānīkam |"
+            },
+            "en": {
+              "text": "Sanjaya said: Seeing the army of the Pandavas arranged in formation…",
+              "transliteration": null
+            }
+          }
+        },
+        "3": {
+          "number": 3,
+          "location": {
+            "chapter": 2,
+            "verse": 3
+          },
+          "languages": {
+            "sa": {
+              "text": "सञ्जय उवाच दृष्ट्वा तु पाण्डवानीकम् ।",
+              "transliteration": "sañjaya uvāca dṛṣṭvā tu pāṇḍavānīkam |"
+            },
+            "en": {
+              "text": "Sanjaya said: Seeing the army of the Pandavas arranged in formation…",
+              "transliteration": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

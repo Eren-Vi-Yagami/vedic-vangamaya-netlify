@@ -1,0 +1,109 @@
+/**
+ * Global Styles for Vaidika Vangamaya
+ * 
+ * This file defines the core visual identity of the application,
+ * creating a scholarly, contemplative atmosphere inspired by ancient texts.
+ * 
+ * Design Philosophy:
+ * - Warm parchment tones evoke traditional manuscripts
+ * - Stone colors provide timeless, scholarly feel
+ * - Saffron accent pays homage to Vaidika traditions
+ * - Serif fonts enhance readability of sacred texts
+ * - Glassmorphism effects create modern accessibility
+ */
+
+/* Import Tailwind CSS for utility classes */
+@import "tailwindcss";
+
+/**
+ * Root CSS Variables - Vaidika Color Palette
+ * 
+ * These variables define our thematic color scheme:
+ * - Background: Warm parchment for manuscript feel
+ * - Foreground: Deep charcoal for excellent contrast
+ * - Accent: Muted saffron for cultural significance
+ * - Muted: Stone gray for secondary elements
+ */
+:root {
+  /* Core theme colors */
+  --background: #000000;      /* Warm parchment off-white - evokes ancient manuscripts */
+  --foreground: #1c1917;      /* Deep charcoal (Stone 900) - maximum readability */
+  
+  /* Vaidika-inspired palette */
+  --veda-primary: #1c1917;    /* Dark stone - primary text and elements */
+  --veda-accent: #d97706;     /* Muted Saffron/Amber - sacred color, highlights */
+  --veda-muted: #78716c;      /* Stone 500 - secondary text and borders */
+  --veda-bg-dark: #0c0a09;    /* Deepest stone for dark mode backgrounds */
+  --veda-paper: #f5f5f4;      /* Light stone paper texture - card backgrounds */
+}
+
+/**
+ * Semantic Color Variables
+ * 
+ * These provide meaningful names for our color usage,
+ * making the theme maintainable and self-documenting.
+ */
+:root {
+  /* Color mappings */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-veda-primary: var(--veda-primary);
+  --color-veda-accent: var(--veda-accent);
+  --color-veda-muted: var(--veda-muted);
+  --color-veda-bg-dark: var(--veda-bg-dark);
+  --color-veda-paper: var(--veda-paper);
+  
+  /* Typography */
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui;
+  --font-serif: "Merriweather", "Playfair Display", "Times New Roman", serif;
+  /* Classical scholarly feel - enhances sacred text readability */
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* IE / old Edge */
+html {
+  -ms-overflow-style: none;
+}
+
+
+/**
+ * Dark Mode Support
+ * 
+ * Automatically switches to darker theme based on user preference.
+ * Maintains readability while reducing eye strain in low light.
+ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0c0a09;      /* Deep dark stone */
+    --foreground: #e7e5e4;    /* Warm grey/stone 200 */
+    --veda-paper: #1c1917;      /* Darker paper for dark mode cards */
+  }
+}
+
+/**
+ * Base Body Styles
+ * 
+ * Applies our theme to the entire application.
+ * Serif font creates book-like reading experience.
+ */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  /* Default to Serif for that book-like feel */
+  line-height: 1.6;
+  /* Comfortable reading line height */
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
