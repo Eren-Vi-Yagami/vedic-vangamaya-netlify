@@ -92,9 +92,9 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b ${isScrolled
-                    ? "bg-background/80 backdrop-blur-md border-veda-muted/20 shadow-sm"
-                    : "bg-transparent border-transparent"
+            className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b ${isScrolled || isOpen
+                ? "bg-background/80 backdrop-blur-md border-veda-muted/20 shadow-sm"
+                : "bg-background/80 backdrop-blur-md border-veda-muted/20 md:bg-transparent md:border-transparent md:backdrop-blur-none"
                 }`}
             role="navigation"
             aria-label="Main navigation"
@@ -124,7 +124,7 @@ const Navbar = () => {
                                     priority
                                 />
                             </Link>
-                            <span className="text-5xl font-semibold text-veda-primary group-hover:text-veda-accent transition-colors">
+                            <span className="text-5xl hidden md:block font-semibold text-veda-primary group-hover:text-veda-accent transition-colors">
                                 Vaidika Vangamaya
                             </span>
                         </Link>
@@ -142,8 +142,8 @@ const Navbar = () => {
                                 key={item.href}
                                 href={item.href}
                                 className={`text-sm font-medium transition-colors hover:text-veda-accent focus:outline-none focus:ring-2 focus:ring-veda-accent rounded-md px-2 py-1 ${pathname === item.href
-                                        ? "text-veda-accent"
-                                        : "text-veda-muted hover:text-veda-primary"
+                                    ? "text-veda-accent"
+                                    : "text-veda-muted hover:text-veda-primary"
                                     }`}
                                 aria-current={pathname === item.href ? "page" : undefined}
                                 title={item.description}
@@ -200,8 +200,8 @@ const Navbar = () => {
                                 key={item.href}
                                 href={item.href}
                                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-veda-accent ${pathname === item.href
-                                        ? "text-veda-accent bg-white/10"
-                                        : "text-veda-muted hover:text-veda-primary"
+                                    ? "text-veda-accent bg-white/10"
+                                    : "text-veda-muted hover:text-veda-primary"
                                     }`}
                                 aria-current={pathname === item.href ? "page" : undefined}
                             >

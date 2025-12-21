@@ -21,6 +21,15 @@ import Image from "next/image";
 import BookCard from "@/components/BookCard";
 import BookCarousel from "@/components/BookCarousel";
 import StatCard from "@/components/StatCard";
+import { Ubuntu } from "next/font/google";
+
+const booksFont = Ubuntu({
+  subsets: ['latin'],
+  weight: '400',
+  display: 'swap',
+});
+
+
 
 // Static assets served from public/images (stable, Netlify-friendly)
 
@@ -362,12 +371,12 @@ export default function Home() {
         Showcases popular texts to encourage exploration
       */}
         <section className="w-full max-w-6xl mb-12">
-          <h3 className="text-2xl font-semibold mb-6 text-center text-veda-primary">
-            Featured Collections
+          <h3 className={`text-2xl mb-6 text-center text-veda-primary ${booksFont.className}`}>
+            Upcoming Books
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ${booksFont.className}`}>
             {featuredBooks.map((book) => (
-              <BookCard
+              <BookCard className={booksFont.className}
                 key={book.id}
                 id={book.id}
                 title={book.title}

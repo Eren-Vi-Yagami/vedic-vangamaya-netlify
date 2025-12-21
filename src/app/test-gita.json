@@ -12,8 +12,9 @@
       "number": 1,
       "title": {
         "sa": "अर्जुनविषादयोग",
-        "en": "Arjuna’s Despair"
+        "en": "Arjuna's Despair"
       },
+      "verseCount": 47,
       "verses": {
         "1": {
           "number": 1,
@@ -23,26 +24,12 @@
           },
           "languages": {
             "sa": {
-              "text": "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ।",
-              "transliteration": "dharmakṣetre kurukṣetre samavetā yuyutsavaḥ |"
+              "text": "धृतराष्ट्र उवाच\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः।\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥१-१॥",
+              "transliteration": "dhṛtarāṣṭra uvāca\ndharmakṣetre kurukṣetre samavetā yuyutsavaḥ\nmāmakāḥ pāṇḍavāś caiva kim akurvata sañjaya"
             },
             "en": {
-              "text": "On the field of dharma, at Kurukshetra, assembled and eager to fight…",
+              "text": "Dhritarashtra said: O Sanjaya, what did my sons and the sons of Pandu do when they had assembled together on the holy plain of Kurukshetra, eager for battle?",
               "transliteration": null
-            }
-          },
-          "commentaries": {
-            "shankara": {
-              "author": {
-                "id": "shankara",
-                "name": "Adi Shankaracharya",
-                "tradition": "Advaita Vedanta"
-              },
-              "languages": {
-                "en": {
-                  "text": "Shankara explains that the term ‘field of dharma’ indicates a sacred moral setting."
-                }
-              }
             }
           }
         },
@@ -54,11 +41,11 @@
           },
           "languages": {
             "sa": {
-              "text": "सञ्जय उवाच दृष्ट्वा तु पाण्डवानीकम् ।",
-              "transliteration": "sañjaya uvāca dṛṣṭvā tu pāṇḍavānīkam |"
+              "text": "सञ्जय उवाच\nदृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा।\nआचार्यमुपसङ्गम्य राजा वचनमब्रवीत्॥१-२॥",
+              "transliteration": "sañjaya uvāca\ndṛṣṭvā tu pāṇḍavānīkaṃ vyūḍhaṃ duryodhanas tadā\nācāryam upasaṅgamya rājā vacanam abravīt"
             },
             "en": {
-              "text": "Sanjaya said: Seeing the army of the Pandavas arranged in formation…",
+              "text": "Sanjaya said: Then King Duryodhana, having seen the Pandava army arrayed, approached his teacher Drona and spoke these words.",
               "transliteration": null
             }
           }
@@ -71,11 +58,759 @@
           },
           "languages": {
             "sa": {
-              "text": "सञ्जय उवाच दृष्ट्वा तु पाण्डवानीकम् ।",
-              "transliteration": "sañjaya uvāca dṛṣṭvā tu pāṇḍavānīkam |"
+              "text": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम्।\nव्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता॥१-३॥",
+              "transliteration": "paśyaitāṃ pāṇḍuputrāṇām ācārya mahatīṃ camūm\nvyūḍhāṃ drupadaputreṇa tava śiṣyeṇa dhīmatā"
             },
             "en": {
-              "text": "Sanjaya said: Seeing the army of the Pandavas arranged in formation…",
+              "text": "Behold, O Teacher, this mighty army of the sons of Pandu, arrayed by the son of Drupada, your wise disciple.",
+              "transliteration": null
+            }
+          }
+        },
+        "4": {
+          "number": 4,
+          "location": {
+            "chapter": 1,
+            "verse": 4
+          },
+          "languages": {
+            "sa": {
+              "text": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि।\nयुयुधानो विराटश्च द्रुपदश्च महारथः॥१-४॥",
+              "transliteration": "atra śūrā maheṣvāsā bhīmārjunasamā yudhi\nyuyudhāno virāṭaś ca drupadaś ca mahārathaḥ"
+            },
+            "en": {
+              "text": "Here are heroes, mighty archers, equal in battle to Bhima and Arjuna: Yuyudhana, Virata, and Drupada, the great charioteer.",
+              "transliteration": null
+            }
+          }
+        },
+        "5": {
+          "number": 5,
+          "location": {
+            "chapter": 1,
+            "verse": 5
+          },
+          "languages": {
+            "sa": {
+              "text": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान्।\nपुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुङ्गवः॥१-५॥",
+              "transliteration": "dhṛṣṭaketuś cekitānaḥ kāśirājaś ca vīryavān\npurujit kuntibhojaś ca śaibyaś ca narapuṅgavaḥ"
+            },
+            "en": {
+              "text": "Dhrishtaketu, Chekitana, the valiant king of Kashi, Purujit, Kuntibhoja, and Shaibya, the best of men.",
+              "transliteration": null
+            }
+          }
+        },
+        "6": {
+          "number": 6,
+          "location": {
+            "chapter": 1,
+            "verse": 6
+          },
+          "languages": {
+            "sa": {
+              "text": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान्।\nसौभद्रो द्रौपदेयाश्च सर्व एव महारथाः॥१-६॥",
+              "transliteration": "yudhāmanyuś ca vikrānta uttamaujāś ca vīryavān\nsaubhadro draupadeyāś ca sarva eva mahārathāḥ"
+            },
+            "en": {
+              "text": "The valiant Yudhamanyu, the mighty Uttamauja, the son of Subhadra, and the sons of Draupadi; all of them great charioteers.",
+              "transliteration": null
+            }
+          }
+        },
+        "7": {
+          "number": 7,
+          "location": {
+            "chapter": 1,
+            "verse": 7
+          },
+          "languages": {
+            "sa": {
+              "text": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम।\nनायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते॥१-७॥",
+              "transliteration": "asmākaṃ tu viśiṣṭā ye tān nibodha dvijottama\nnāyakā mama sainyasya saṃjñārthaṃ tān bravīmi te"
+            },
+            "en": {
+              "text": "Know also, O best of the twice-born, the leaders of my army, who are especially distinguished. For your information, I name them.",
+              "transliteration": null
+            }
+          }
+        },
+        "8": {
+          "number": 8,
+          "location": {
+            "chapter": 1,
+            "verse": 8
+          },
+          "languages": {
+            "sa": {
+              "text": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः।\nअश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च॥१-८॥",
+              "transliteration": "bhavān bhīṣmaś ca karṇaś ca kṛpaś ca samitiñjayaḥ\naśvatthāmā vikarṇaś ca saumadattis tathaiva ca"
+            },
+            "en": {
+              "text": "Yourself, Bhishma, Karna, Kripa the victorious in battle, Ashwatthama, Vikarna, and also the son of Somadatta.",
+              "transliteration": null
+            }
+          }
+        },
+        "9": {
+          "number": 9,
+          "location": {
+            "chapter": 1,
+            "verse": 9
+          },
+          "languages": {
+            "sa": {
+              "text": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः।\nनानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः॥१-९॥",
+              "transliteration": "anye ca bahavaḥ śūrā madarthe tyaktajīvitāḥ\nnānāśastrapraharaṇāḥ sarve yuddhaviśāradāḥ"
+            },
+            "en": {
+              "text": "And many other heroes who have risked their lives for my sake, armed with various weapons, all skilled in battle.",
+              "transliteration": null
+            }
+          }
+        },
+        "10": {
+          "number": 10,
+          "location": {
+            "chapter": 1,
+            "verse": 10
+          },
+          "languages": {
+            "sa": {
+              "text": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम्।\nपर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम्॥१-१०॥",
+              "transliteration": "aparyāptaṃ tad asmākaṃ balaṃ bhīṣmābhirakṣitam\nparyāptaṃ tv idam eteṣāṃ balaṃ bhīmābhirakṣitam"
+            },
+            "en": {
+              "text": "Our army, protected by Bhishma, is unlimited; but their army, protected by Bhima, is limited.",
+              "transliteration": null
+            }
+          }
+        },
+        "11": {
+          "number": 11,
+          "location": {
+            "chapter": 1,
+            "verse": 11
+          },
+          "languages": {
+            "sa": {
+              "text": "अयनेषु च सर्वेषु यथाभागमवस्थिताः।\nभीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि॥१-११॥",
+              "transliteration": "ayaneṣu ca sarveṣu yathābhāgam avasthitāḥ\nbhīṣmam evābhirakṣantu bhavantaḥ sarva eva hi"
+            },
+            "en": {
+              "text": "Therefore, all of you, stationed in your respective positions on all fronts, guard Bhishma alone.",
+              "transliteration": null
+            }
+          }
+        },
+        "12": {
+          "number": 12,
+          "location": {
+            "chapter": 1,
+            "verse": 12
+          },
+          "languages": {
+            "sa": {
+              "text": "तस्य सञ्जनयन्हर्षं कुरुवृद्धः पितामहः।\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान्॥१-१२॥",
+              "transliteration": "tasya sañjanayan harṣaṃ kuruvṛddhaḥ pitāmahaḥ\nsiṃhanādaṃ vinadyoccaiḥ śaṅkhaṃ dadhmau pratāpavān"
+            },
+            "en": {
+              "text": "Then the venerable grandsire Bhishma, the eldest of the Kurus, roared like a lion and blew his conch loudly, gladdening the heart of Duryodhana.",
+              "transliteration": null
+            }
+          }
+        },
+        "13": {
+          "number": 13,
+          "location": {
+            "chapter": 1,
+            "verse": 13
+          },
+          "languages": {
+            "sa": {
+              "text": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः।\nसहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत्॥१-१३॥",
+              "transliteration": "tataḥ śaṅkhāś ca bheryaś ca paṇavānakagomukhāḥ\nsahasaivābhyahanyanta sa śabdas tumulo 'bhavat"
+            },
+            "en": {
+              "text": "Then suddenly conches, kettledrums, tabors, drums and cow-horns blared forth, and the sound was tremendous.",
+              "transliteration": null
+            }
+          }
+        },
+        "14": {
+          "number": 14,
+          "location": {
+            "chapter": 1,
+            "verse": 14
+          },
+          "languages": {
+            "sa": {
+              "text": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ।\nमाधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः॥१-१४॥",
+              "transliteration": "tataḥ śvetair hayair yukte mahati syandane sthitau\nmādhavaḥ pāṇḍavaś caiva divyau śaṅkhau pradadhmatuḥ"
+            },
+            "en": {
+              "text": "Then, stationed in their great chariot yoked with white horses, Madhava (Krishna) and the son of Pandu (Arjuna) blew their divine conches.",
+              "transliteration": null
+            }
+          }
+        },
+        "15": {
+          "number": 15,
+          "location": {
+            "chapter": 1,
+            "verse": 15
+          },
+          "languages": {
+            "sa": {
+              "text": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जयः।\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः॥१-१५॥",
+              "transliteration": "pāñcajanyaṃ hṛṣīkeśo devadattaṃ dhanañjayaḥ\npauṇḍraṃ dadhmau mahāśaṅkhaṃ bhīmakarmā vṛkodaraḥ"
+            },
+            "en": {
+              "text": "Hrishikesha (Krishna) blew the Panchajanya, Dhananjaya (Arjuna) blew the Devadatta, and Bhima of terrible deeds blew the great conch Paundra.",
+              "transliteration": null
+            }
+          }
+        },
+        "16": {
+          "number": 16,
+          "location": {
+            "chapter": 1,
+            "verse": 16
+          },
+          "languages": {
+            "sa": {
+              "text": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः।\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ॥१-१६॥",
+              "transliteration": "anantavijayaṃ rājā kuntīputro yudhiṣṭhiraḥ\nnakulaḥ sahadevaś ca sughoṣamaṇipuṣpakau"
+            },
+            "en": {
+              "text": "King Yudhishthira, the son of Kunti, blew the Anantavijaya; Nakula and Sahadeva blew the Sughosha and Manipushpaka.",
+              "transliteration": null
+            }
+          }
+        },
+        "17": {
+          "number": 17,
+          "location": {
+            "chapter": 1,
+            "verse": 17
+          },
+          "languages": {
+            "sa": {
+              "text": "काश्यश्च परमेष्वासः शिखण्डी च महारथः।\nधृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः॥१-१७॥",
+              "transliteration": "kāśyaś ca parameṣvāsaḥ śikhaṇḍī ca mahārathaḥ\ndhṛṣṭadyumno virāṭaś ca sātyakiś cāparājitaḥ"
+            },
+            "en": {
+              "text": "The king of Kashi, an excellent archer, Shikhandi the great charioteer, Dhrishtadyumna, Virata, and the unconquered Satyaki.",
+              "transliteration": null
+            }
+          }
+        },
+        "18": {
+          "number": 18,
+          "location": {
+            "chapter": 1,
+            "verse": 18
+          },
+          "languages": {
+            "sa": {
+              "text": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते।\nसौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक्॥१-१८॥",
+              "transliteration": "drupado draupadeyāś ca sarvaśaḥ pṛthivīpate\nsaubhadraś ca mahābāhuḥ śaṅkhān dadhmuḥ pṛthak pṛthak"
+            },
+            "en": {
+              "text": "Drupada, the sons of Draupadi, O Lord of the Earth, and the mighty-armed son of Subhadra, each blew their respective conches.",
+              "transliteration": null
+            }
+          }
+        },
+        "19": {
+          "number": 19,
+          "location": {
+            "chapter": 1,
+            "verse": 19
+          },
+          "languages": {
+            "sa": {
+              "text": "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत्।\nनभश्च पृथिवीं चैव तुमुलोऽभ्यनुनादयन्॥१-१९॥",
+              "transliteration": "sa ghoṣo dhārtarāṣṭrāṇāṃ hṛdayāni vyadārayat\nnabhaś ca pṛthivīṃ caiva tumulo 'bhyanunādayan"
+            },
+            "en": {
+              "text": "That tumultuous sound, resounding through heaven and earth, rent the hearts of the sons of Dhritarashtra.",
+              "transliteration": null
+            }
+          }
+        },
+        "20": {
+          "number": 20,
+          "location": {
+            "chapter": 1,
+            "verse": 20
+          },
+          "languages": {
+            "sa": {
+              "text": "अथ व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान् कपिध्वजः।\nप्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डवः॥\nहृषीकेशं तदा वाक्यमिदमाह महीपते॥१-२०॥",
+              "transliteration": "atha vyavasthitān dṛṣṭvā dhārtarāṣṭrān kapidhvajaḥ\npravṛtte śastrasampāte dhanur udyamya pāṇḍavaḥ\nhṛṣīkeśaṃ tadā vākyam idam āha mahīpate"
+            },
+            "en": {
+              "text": "Then, O King, seeing the sons of Dhritarashtra arrayed and the discharge of weapons about to begin, Arjuna, the son of Pandu, whose banner bore the emblem of Hanuman, took up his bow and spoke these words to Hrishikesha (Krishna).",
+              "transliteration": null
+            }
+          }
+        },
+        "21": {
+          "number": 21,
+          "location": {
+            "chapter": 1,
+            "verse": 21
+          },
+          "languages": {
+            "sa": {
+              "text": "अर्जुन उवाच\nसेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत।\nयावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान्॥\nकैर्मया सह योद्धव्यमस्मिन् रणसमुद्यमे॥१-२१॥",
+              "transliteration": "arjuna uvāca\nsenayor ubhayor madhye rathaṃ sthāpaya me 'cyuta\nyāvad etān nirīkṣe 'haṃ yoddhukāmān avasthitān\nkair mayā saha yoddhavyam asmin raṇasamudyame"
+            },
+            "en": {
+              "text": "Arjuna said: O Achyuta, please place my chariot between the two armies so that I may see those who stand here desirous to fight, and know with whom I must contend in this battle.",
+              "transliteration": null
+            }
+          }
+        },
+        "22": {
+          "number": 22,
+          "location": {
+            "chapter": 1,
+            "verse": 22
+          },
+          "languages": {
+            "sa": {
+              "text": "योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः।\nधार्तराष्ट्रस्य दुर्बुद्धेर्युद्धे प्रियचिकीर्षवः॥१-२२॥",
+              "transliteration": "yotsyamānān avekṣe 'haṃ ya ete 'tra samāgatāḥ\ndhārtarāṣṭrasya durbuddher yuddhe priyacikīrṣavaḥ"
+            },
+            "en": {
+              "text": "So that I may see those assembled here to fight, wishing to please in battle the evil-minded son of Dhritarashtra.",
+              "transliteration": null
+            }
+          }
+        },
+        "23": {
+          "number": 23,
+          "location": {
+            "chapter": 1,
+            "verse": 23
+          },
+          "languages": {
+            "sa": {
+              "text": "सञ्जय उवाच\nएवमुक्तो हृषीकेशो गुडाकेशेन भारत।\nसेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्॥१-२३॥",
+              "transliteration": "sañjaya uvāca\nevam ukto hṛṣīkeśo guḍākeśena bhārata\nsenayor ubhayor madhye sthāpayitvā rathottamam"
+            },
+            "en": {
+              "text": "Sanjaya said: O descendant of Bharata, thus addressed by Gudakesha (Arjuna), Hrishikesha (Krishna) placed the excellent chariot between the two armies.",
+              "transliteration": null
+            }
+          }
+        },
+        "24": {
+          "number": 24,
+          "location": {
+            "chapter": 1,
+            "verse": 24
+          },
+          "languages": {
+            "sa": {
+              "text": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्।\nउवाच पार्थ पश्यैतान्समवेतान्कुरूनिति॥१-२४॥",
+              "transliteration": "bhīṣmadroṇapramukhataḥ sarveṣāṃ ca mahīkṣitām\nuvāca pārtha paśyaitān samavetān kurūn iti"
+            },
+            "en": {
+              "text": "In front of Bhishma, Drona, and all the rulers of the earth, He said: O Partha, behold these Kurus gathered together.",
+              "transliteration": null
+            }
+          }
+        },
+        "25": {
+          "number": 25,
+          "location": {
+            "chapter": 1,
+            "verse": 25
+          },
+          "languages": {
+            "sa": {
+              "text": "तत्रापश्यत्स्थितान् पार्थः पितृनथ पितामहान्।\nआचार्यान्मातुलान्भ्रातृन्पुत्रान्पौत्रान्सखींस्तथा॥\nश्वशुरान्सुहृदश्चैव सेनयोरुभयोरपि॥१-२५॥",
+              "transliteration": "tatrāpaśyat sthitān pārthaḥ pitṛn atha pitāmahān\nācāryān mātulān bhrātṛn putrān pautrān sakhīṃs tathā\nśvaśurān suhṛdaś caiva senayor ubhayor api"
+            },
+            "en": {
+              "text": "There Arjuna saw standing fathers and grandfathers, teachers, maternal uncles, brothers, sons, grandsons, friends, as well as fathers-in-law and well-wishers in both armies.",
+              "transliteration": null
+            }
+          }
+        },
+        "26": {
+          "number": 26,
+          "location": {
+            "chapter": 1,
+            "verse": 26
+          },
+          "languages": {
+            "sa": {
+              "text": "तान्समीक्ष्य स कौन्तेयः सर्वान्बन्धूनवस्थितान्।\nकृपया परयाविष्टो विषीदन्निदमब्रवीत्॥१-२६॥",
+              "transliteration": "tān samīkṣya sa kaunteyaḥ sarvān bandhūn avasthitān\nkṛpayā parayāviṣṭo viṣīdann idam abravīt"
+            },
+            "en": {
+              "text": "Seeing all these relatives arrayed before him, the son of Kunti (Arjuna) was overcome with great compassion and spoke sorrowfully.",
+              "transliteration": null
+            }
+          }
+        },
+        "27": {
+          "number": 27,
+          "location": {
+            "chapter": 1,
+            "verse": 27
+          },
+          "languages": {
+            "sa": {
+              "text": "अर्जुन उवाच\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्॥१-२७॥",
+              "transliteration": "arjuna uvāca\ndṛṣṭvemaṃ svajanaṃ kṛṣṇa yuyutsuṃ samupasthitam"
+            },
+            "en": {
+              "text": "Arjuna said: O Krishna, seeing my kinsmen arrayed for battle here, my limbs fail and my mouth is parched.",
+              "transliteration": null
+            }
+          }
+        },
+        "28": {
+          "number": 28,
+          "location": {
+            "chapter": 1,
+            "verse": 28
+          },
+          "languages": {
+            "sa": {
+              "text": "सीदन्ति मम गात्राणि मुखं च परिशुष्यति।\nवेपथुश्च शरीरे मे रोमहर्षश्च जायते॥१-२८॥",
+              "transliteration": "sīdanti mama gātrāṇi mukhaṃ ca pariśuṣyati\nvepathuś ca śarīre me romaharṣaś ca jāyate"
+            },
+            "en": {
+              "text": "My body trembles, my hair stands on end, my bow Gandiva slips from my hand, and my skin burns.",
+              "transliteration": null
+            }
+          }
+        },
+        "29": {
+          "number": 29,
+          "location": {
+            "chapter": 1,
+            "verse": 29
+          },
+          "languages": {
+            "sa": {
+              "text": "गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते।\nन च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः॥१-२९॥",
+              "transliteration": "gāṇḍīvaṃ sraṃsate hastāt tvak caiva paridahyate\nna ca śaknomy avasthātuṃ bhramatīva ca me manaḥ"
+            },
+            "en": {
+              "text": "I am unable to stand steady, my mind is reeling, and I see adverse omens, O Keshava.",
+              "transliteration": null
+            }
+          }
+        },
+        "30": {
+          "number": 30,
+          "location": {
+            "chapter": 1,
+            "verse": 30
+          },
+          "languages": {
+            "sa": {
+              "text": "निमित्तानि च पश्यामि विपरीतानि केशव।\nन च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे॥१-३०॥",
+              "transliteration": "nimittāni ca paśyāmi viparītāni keśava\nna ca śreyo 'nupaśyāmi hatvā svajanam āhave"
+            },
+            "en": {
+              "text": "I see no good in killing my kinsmen in battle. I desire neither victory, nor kingdom, nor pleasures.",
+              "transliteration": null
+            }
+          }
+        },
+        "31": {
+          "number": 31,
+          "location": {
+            "chapter": 1,
+            "verse": 31
+          },
+          "languages": {
+            "sa": {
+              "text": "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च।\nकिं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा॥१-३१॥",
+              "transliteration": "na kāṅkṣe vijayaṃ kṛṣṇa na ca rājyaṃ sukhāni ca\nkiṃ no rājyena govinda kiṃ bhogair jīvitena vā"
+            },
+            "en": {
+              "text": "Of what use is a kingdom to us, O Govinda? Of what use are pleasures or even life itself when those for whose sake we desire kingdom, enjoyments and pleasures stand here in battle?",
+              "transliteration": null
+            }
+          }
+        },
+        "32": {
+          "number": 32,
+          "location": {
+            "chapter": 1,
+            "verse": 32
+          },
+          "languages": {
+            "sa": {
+              "text": "येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च।\nत इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च॥१-३२॥",
+              "transliteration": "yeṣām arthe kāṅkṣitaṃ no rājyaṃ bhogāḥ sukhāni ca\nta ime 'vasthitā yuddhe prāṇāṃs tyaktvā dhanāni ca"
+            },
+            "en": {
+              "text": "Teachers, fathers, sons, as well as grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law, and other relatives—they are all ready to give up their lives and wealth for my sake.",
+              "transliteration": null
+            }
+          }
+        },
+        "33": {
+          "number": 33,
+          "location": {
+            "chapter": 1,
+            "verse": 33
+          },
+          "languages": {
+            "sa": {
+              "text": "आचार्याः पितरः पुत्रास्तथैव च पितामहाः।\nमातुलाः श्वशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा॥१-३३॥",
+              "transliteration": "ācāryāḥ pitaraḥ putrās tathaiva ca pitāmahāḥ\nmātulāḥ śvaśurāḥ pautrāḥ śyālāḥ sambandhinas tathā"
+            },
+            "en": {
+              "text": "Even if they kill me, I do not wish to kill them, not even for the sovereignty of the three worlds, let alone for this earthly kingdom, O Madhusudana.",
+              "transliteration": null
+            }
+          }
+        },
+        "34": {
+          "number": 34,
+          "location": {
+            "chapter": 1,
+            "verse": 34
+          },
+          "languages": {
+            "sa": {
+              "text": "एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन।\nअपि त्रैलोक्यराज्यस्य हेतोः किं नु महीकृते॥१-३४॥",
+              "transliteration": "etān na hantum icchāmi ghnato 'pi madhusūdana\napi trailokyarājyasya hetoḥ kiṃ nu mahīkṛte"
+            },
+            "en": {
+              "text": "What pleasure shall we derive from killing the sons of Dhritarashtra, O Janardana? Sin alone will cling to us if we slay these aggressors.",
+              "transliteration": null
+            }
+          }
+        },
+        "35": {
+          "number": 35,
+          "location": {
+            "chapter": 1,
+            "verse": 35
+          },
+          "languages": {
+            "sa": {
+              "text": "निहत्य धार्तराष्ट्रान्नः का प्रीतिः स्याज्जनार्दन।\nपापमेवाश्रयेदस्मान्हत्वैतानाततायिनः॥१-३५॥",
+              "transliteration": "nihatya dhārtarāṣṭrān naḥ kā prītiḥ syāj janārdana\npāpam evāśrayed asmān hatvaitān ātatāyinaḥ"
+            },
+            "en": {
+              "text": "Therefore, we should not kill the sons of Dhritarashtra, our relatives. How can we be happy by killing our own kinsmen, O Madhava?",
+              "transliteration": null
+            }
+          }
+        },
+        "36": {
+          "number": 36,
+          "location": {
+            "chapter": 1,
+            "verse": 36
+          },
+          "languages": {
+            "sa": {
+              "text": "तस्मान्नार्हा वयं हन्तुं धार्तराष्ट्रान्स्वबान्धवान्।\nस्वजनं हि कथं हत्वा सुखिनः स्याम माधव॥१-३६॥",
+              "transliteration": "tasmān nārhā vayaṃ hantuṃ dhārtarāṣṭrān svabāndhavān\nsvajanaṃ hi kathaṃ hatvā sukhinaḥ syāma mādhava"
+            },
+            "en": {
+              "text": "Even if they, whose minds are overpowered by greed, see no fault in killing their relatives or quarreling with friends,",
+              "transliteration": null
+            }
+          }
+        },
+        "37": {
+          "number": 37,
+          "location": {
+            "chapter": 1,
+            "verse": 37
+          },
+          "languages": {
+            "sa": {
+              "text": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः।\nकुलक्षयकृतं दोषं मित्रद्रोहे च पातकम्॥१-३७॥",
+              "transliteration": "yady apy ete na paśyanti lobhopahatacetasaḥ\nkulakṣayakṛtaṃ doṣaṃ mitradrohe ca pātakam"
+            },
+            "en": {
+              "text": "Why should we, who clearly see the crime in destroying a family, not turn away from this sin, O Janardana?",
+              "transliteration": null
+            }
+          }
+        },
+        "38": {
+          "number": 38,
+          "location": {
+            "chapter": 1,
+            "verse": 38
+          },
+          "languages": {
+            "sa": {
+              "text": "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम्।\nकुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन॥१-३८॥",
+              "transliteration": "kathaṃ na jñeyam asmābhiḥ pāpād asmān nivartitum\nkulakṣayakṛtaṃ doṣaṃ prapaśyadbhir janārdana"
+            },
+            "en": {
+              "text": "With the destruction of the family, the eternal family traditions perish, and thereafter unrighteousness prevails in the family.",
+              "transliteration": null
+            }
+          }
+        },
+        "39": {
+          "number": 39,
+          "location": {
+            "chapter": 1,
+            "verse": 39
+          },
+          "languages": {
+            "sa": {
+              "text": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः।\nधर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत॥१-३९॥",
+              "transliteration": "kulakṣaye praṇaśyanti kuladharmāḥ sanātanāḥ\ndharma naṣṭe kulaṃ kṛtsnam adharmo 'bhibhavaty uta"
+            },
+            "en": {
+              "text": "When unrighteousness prevails, O Krishna, the women of the family become corrupt; and when women become corrupt, social chaos arises.",
+              "transliteration": null
+            }
+          }
+        },
+        "40": {
+          "number": 40,
+          "location": {
+            "chapter": 1,
+            "verse": 40
+          },
+          "languages": {
+            "sa": {
+              "text": "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः।\nस्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः॥१-४०॥",
+              "transliteration": "adharmābhibhavāt kṛṣṇa praduṣyanti kulastriyaḥ\nstrīṣu duṣṭāsu vārṣṇeya jāyate varṇasaṅkaraḥ"
+            },
+            "en": {
+              "text": "This intermixture of castes leads the family and the slayers of the family to hell, for their ancestors fall, deprived of the offerings of rice-ball and water.",
+              "transliteration": null
+            }
+          }
+        },
+        "41": {
+          "number": 41,
+          "location": {
+            "chapter": 1,
+            "verse": 41
+          },
+          "languages": {
+            "sa": {
+              "text": "सङ्करो नरकायैव कुलघ्नानां कुलस्य च।\nपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः॥१-४१॥",
+              "transliteration": "saṅkaro narakāyaiva kulaghnānāṃ kulasya ca\npatanti pitaro hy eṣāṃ luptapiṇḍodakakriyāḥ"
+            },
+            "en": {
+              "text": "By the evil deeds of those who destroy the family, which cause intermixture of castes, the eternal traditions of the family and community are destroyed.",
+              "transliteration": null
+            }
+          }
+        },
+        "42": {
+          "number": 42,
+          "location": {
+            "chapter": 1,
+            "verse": 42
+          },
+          "languages": {
+            "sa": {
+              "text": "दोषैरेतैः कुलघ्नानां वर्णसङ्करकारकैः।\nउत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः॥१-४२॥",
+              "transliteration": "doṣair etaiḥ kulaghnānāṃ varṇasaṅkarakārakaiḥ\nutsādyante jātidharmāḥ kuladharmāś ca śāśvatāḥ"
+            },
+            "en": {
+              "text": "Men whose family traditions are destroyed dwell in hell for an indefinite period of time, so we have heard.",
+              "transliteration": null
+            }
+          }
+        },
+        "43": {
+          "number": 43,
+          "location": {
+            "chapter": 1,
+            "verse": 43
+          },
+          "languages": {
+            "sa": {
+              "text": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन।\nनरकेऽनियतं वासो भवतीत्यनुशुश्रुम॥१-४३॥",
+              "transliteration": "utsannakuladharmāṇāṃ manuṣyāṇāṃ janārdana\nnarake 'niyataṃ vāso bhavatīty anuśuśruma"
+            },
+            "en": {
+              "text": "Alas! We are resolved to commit a great sin, as we are trying to kill our kinsmen out of greed for the pleasures of the kingdom.",
+              "transliteration": null
+            }
+          }
+        },
+        "44": {
+          "number": 44,
+          "location": {
+            "chapter": 1,
+            "verse": 44
+          },
+          "languages": {
+            "sa": {
+              "text": "अहो बत महत्पापं कर्तुं व्यवसिता वयम्।\nयद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः॥१-४४॥",
+              "transliteration": "aho bata mahat pāpaṃ kartuṃ vyavasitā vayam\nyad rājyasukhalobhena hantuṃ svajanam udyatāḥ"
+            },
+            "en": {
+              "text": "It would be better for me if the sons of Dhritarashtra, weapons in hand, should slay me unarmed and unresisting in the battle.",
+              "transliteration": null
+            }
+          }
+        },
+        "45": {
+          "number": 45,
+          "location": {
+            "chapter": 1,
+            "verse": 45
+          },
+          "languages": {
+            "sa": {
+              "text": "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः।\nधार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत्॥१-४५॥",
+              "transliteration": "yadi mām apratīkāram aśastraṃ śastrapāṇayaḥ\ndhārtarāṣṭrā raṇe hanyus tan me kṣemataraṃ bhavet"
+            },
+            "en": {
+              "text": "Sanjaya said: Having spoken thus on the battlefield, Arjuna cast aside his bow and arrows and sank into the seat of his chariot, his mind overcome with grief.",
+              "transliteration": null
+            }
+          }
+        },
+        "46": {
+          "number": 46,
+          "location": {
+            "chapter": 1,
+            "verse": 46
+          },
+          "languages": {
+            "sa": {
+              "text": "सञ्जय उवाच\nएवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत्।\nविसृज्य सशरं चापं शोकसंविग्नमानसः॥१-४६॥",
+              "transliteration": "sañjaya uvāca\nevam uktvārjunaḥ saṅkhye rathopastha upāviśat\nvisṛjya saśaraṃ cāpaṃ śokasaṃvignamānasaḥ"
+            },
+            "en": {
+              "text": "Thus ends the first chapter named Arjuna's Despair of the Bhagavad Gita, the science of Yoga, in the dialogue between Sri Krishna and Arjuna.",
+              "transliteration": null
+            }
+          }
+        },
+        "47": {
+          "number": 47,
+          "location": {
+            "chapter": 1,
+            "verse": 47
+          },
+          "languages": {
+            "sa": {
+              "text": "॥ इति श्रीमद्भगवद्गीतासूपनिषत्सु ब्रह्मविद्यायां योगशास्त्रे श्रीकृष्णार्जुनसंवादेऽर्जुनविषादयोगो नाम प्रथमोऽध्यायः॥",
+              "transliteration": "iti śrīmadbhagavadgītāsūpaniṣatsu brahmavidyāyāṃ yogaśāstre śrīkṛṣṇārjunasaṃvāde 'rjunaviṣādayogo nāma prathamo 'dhyāyaḥ"
+            },
+            "en": {
+              "text": "Thus ends the first chapter named Arjuna's Despair of the Bhagavad Gita, the science of Yoga, in the dialogue between Sri Krishna and Arjuna.",
               "transliteration": null
             }
           }
@@ -85,9 +820,10 @@
     "2": {
       "number": 2,
       "title": {
-        "sa": "अर्जुनविषादयोग",
-        "en": "Arjuna’s Despair"
+        "sa": "साङ्ख्ययोग",
+        "en": "The Yoga of Knowledge"
       },
+      "verseCount": 72,
       "verses": {
         "1": {
           "number": 1,
@@ -97,26 +833,12 @@
           },
           "languages": {
             "sa": {
-              "text": "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ।",
-              "transliteration": "dharmakṣetre kurukṣetre samavetā yuyutsavaḥ |"
+              "text": "सञ्जय उवाच\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम्।\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः॥२-१॥",
+              "transliteration": "sañjaya uvāca\ntaṃ tathā kṛpayāviṣṭam aśrupūrṇākulekṣaṇam\nviṣīdantam idaṃ vākyam uvāca madhusūdanaḥ"
             },
             "en": {
-              "text": "On the field of dharma, at Kurukshetra, assembled and eager to fight…",
+              "text": "Sanjaya said: To him who was thus overcome with pity, whose eyes were filled with tears and troubled, and who was despondent, Madhusudana (Krishna) spoke these words.",
               "transliteration": null
-            }
-          },
-          "commentaries": {
-            "shankara": {
-              "author": {
-                "id": "shankara",
-                "name": "Adi Shankaracharya",
-                "tradition": "Advaita Vedanta"
-              },
-              "languages": {
-                "en": {
-                  "text": "Shankara explains that the term ‘field of dharma’ indicates a sacred moral setting."
-                }
-              }
             }
           }
         },
@@ -128,11 +850,11 @@
           },
           "languages": {
             "sa": {
-              "text": "सञ्जय उवाच दृष्ट्वा तु पाण्डवानीकम् ।",
-              "transliteration": "sañjaya uvāca dṛṣṭvā tu pāṇḍavānīkam |"
+              "text": "श्रीभगवानुवाच\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम्।\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन॥२-२॥",
+              "transliteration": "śrībhagavān uvāca\nkutas tvā kaśmalam idaṃ viṣame samupasthitam\nanāryajuṣṭam asvargyam akīrtikaram arjuna"
             },
             "en": {
-              "text": "Sanjaya said: Seeing the army of the Pandavas arranged in formation…",
+              "text": "The Blessed Lord said: O Arjuna, from where has this delusion, this disgraceful weakness, this un-Aryan, heaven-barring, and dishonorable attitude come upon you at this critical juncture?",
               "transliteration": null
             }
           }
@@ -145,11 +867,1925 @@
           },
           "languages": {
             "sa": {
-              "text": "सञ्जय उवाच दृष्ट्वा तु पाण्डवानीकम् ।",
-              "transliteration": "sañjaya uvāca dṛṣṭvā tu pāṇḍavānīkam |"
+              "text": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते।\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप॥२-३॥",
+              "transliteration": "klaibyaṃ mā sma gamaḥ pārtha naitat tvayy upapadyate\nkṣudraṃ hṛdayadaurbalyaṃ tyaktvottiṣṭha parantapa"
             },
             "en": {
-              "text": "Sanjaya said: Seeing the army of the Pandavas arranged in formation…",
+              "text": "Yield not to unmanliness, O son of Pritha. It does not befit you. Shake off this petty faint-heartedness and arise, O scorcher of foes.",
+              "transliteration": null
+            }
+          }
+        },
+        "4": {
+          "number": 4,
+          "location": {
+            "chapter": 2,
+            "verse": 4
+          },
+          "languages": {
+            "sa": {
+              "text": "अर्जुन उवाच\nकथं भीष्ममहं सङ्ख्ये द्रोणं च मधुसूदन।\nइषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन॥२-४॥",
+              "transliteration": "arjuna uvāca\nkathaṃ bhīṣmam ahaṃ saṅkhye droṇaṃ ca madhusūdana\niṣubhiḥ pratiyotsyāmi pūjārhāv arisūdana"
+            },
+            "en": {
+              "text": "Arjuna said: O Madhusudana (slayer of Madhu), how can I fight with arrows in battle against Bhishma and Drona, who are worthy of worship, O slayer of enemies?",
+              "transliteration": null
+            }
+          }
+        },
+        "5": {
+          "number": 5,
+          "location": {
+            "chapter": 2,
+            "verse": 5
+          },
+          "languages": {
+            "sa": {
+              "text": "गुरूनहत्वा हि महानुभावान्श्रेयो भोक्तुं भैक्ष्यमपीह लोके।\nहत्वार्थकामांस्तु गुरूनिहैव भुञ्जीय भोगान् रुधिरप्रदिग्धान्॥२-५॥",
+              "transliteration": "gurūn ahatvā hi mahānubhāvān śreyo bhoktuṃ bhaikṣyam apīha loke\nhatvārthakāmāṃs tu gurūn ihaiva bhuñjīya bhogān rudhirapradigdhān"
+            },
+            "en": {
+              "text": "It is better to live in this world by begging than to slay these noble teachers. By killing them, I would enjoy pleasures stained with blood.",
+              "transliteration": null
+            }
+          }
+        },
+        "6": {
+          "number": 6,
+          "location": {
+            "chapter": 2,
+            "verse": 6
+          },
+          "languages": {
+            "sa": {
+              "text": "न चैतद्विद्मः कतरन्नो गरीयो यद्वा जयेम यदि वा नो जयेयुः।\nयानेव हत्वा न जिजीविषामस् तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः॥२-६॥",
+              "transliteration": "na caitad vidmaḥ kataranno garīyo yadvā jayema yadi vā no jayeyuḥ\nyān eva hatvā na jijīviṣāmas te 'vasthitāḥ pramukhe dhārtarāṣṭrāḥ"
+            },
+            "en": {
+              "text": "Nor do we know which is better for us—to conquer them or to be conquered by them. After killing the sons of Dhritarashtra, we would not wish to live. Yet they stand before us, having taken up arms.",
+              "transliteration": null
+            }
+          }
+        },
+        "7": {
+          "number": 7,
+          "location": {
+            "chapter": 2,
+            "verse": 7
+          },
+          "languages": {
+            "sa": {
+              "text": "कार्पण्यदोषोपहतस्वभावः पृच्छामि त्वां धर्मसम्मूढचेताः।\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम्॥२-७॥",
+              "transliteration": "kārpaṇyadoṣopahatasvabhāvaḥ pṛcchāmi tvāṃ dhammasammūḍhacetāḥ\nyac chreyaḥ syān niścitaṃ brūhi tan me śiṣyas te 'haṃ śādhi māṃ tvāṃ prapannam"
+            },
+            "en": {
+              "text": "My nature afflicted with the taint of faint-heartedness, my mind confused about duty, I ask You: Tell me decisively what is good for me. I am Your disciple. Instruct me, who has taken refuge in You.",
+              "transliteration": null
+            }
+          }
+        },
+        "8": {
+          "number": 8,
+          "location": {
+            "chapter": 2,
+            "verse": 8
+          },
+          "languages": {
+            "sa": {
+              "text": "न हि प्रपश्यामि ममापनुद्याद्यच्छोकमुच्छोषणमिन्द्रियाणाम्।\nअवाप्य भूमावसपत्नमृद्धं राज्यं सुराणामपि चाधिपत्यम्॥२-८॥",
+              "transliteration": "na hi prapaśyāmi mamāpanudyād yac chokam ucchoṣaṇam indriyāṇām\navāpya bhūmāv asapatnam ṛddhaṃ rājyaṃ surāṇām api cādhipatyam"
+            },
+            "en": {
+              "text": "I do not see that it would remove this sorrow that burns my senses, even if I should attain prosperous and unrivaled dominion on earth or lordship over the gods.",
+              "transliteration": null
+            }
+          }
+        },
+        "9": {
+          "number": 9,
+          "location": {
+            "chapter": 2,
+            "verse": 9
+          },
+          "languages": {
+            "sa": {
+              "text": "सञ्जय उवाच\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तपः।\nन योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह॥२-९॥",
+              "transliteration": "sañjaya uvāca\nevam uktvā hṛṣīkeśaṃ guḍākeśaḥ parantapaḥ\nna yotsya iti govindam uktvā tūṣṇīṃ babhūva ha"
+            },
+            "en": {
+              "text": "Sanjaya said: Having spoken thus to Hrishikesha, Gudakesha (Arjuna), the scorcher of foes, said to Govinda, \"I will not fight,\" and became silent.",
+              "transliteration": null
+            }
+          }
+        },
+        "10": {
+          "number": 10,
+          "location": {
+            "chapter": 2,
+            "verse": 10
+          },
+          "languages": {
+            "sa": {
+              "text": "तमुवाच हृषीकेशः प्रहसन्निव भारत।\nसेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः॥२-१०॥",
+              "transliteration": "tam uvāca hṛṣīkeśaḥ prahasann iva bhārata\nsenayor ubhayor madhye viṣīdantam idaṃ vacaḥ"
+            },
+            "en": {
+              "text": "O descendant of Bharata, at that time Hrishikesha, smiling as it were, spoke these words to the despondent Arjuna, who was situated between the two armies.",
+              "transliteration": null
+            }
+          }
+        },
+        "11": {
+          "number": 11,
+          "location": {
+            "chapter": 2,
+            "verse": 11
+          },
+          "languages": {
+            "sa": {
+              "text": "श्रीभगवानुवाच\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे।\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः॥२-११॥",
+              "transliteration": "śrībhagavān uvāca\naśocyān anvaśocas tvaṃ prajñāvādāṃś ca bhāṣase\n gatāsūn agatāsūṃś ca nānuśocanti paṇḍitāḥ"
+            },
+            "en": {
+              "text": "The Blessed Lord said: You grieve for those who should not be grieved for, yet you speak words of wisdom. The wise grieve neither for the living nor for the dead.",
+              "transliteration": null
+            }
+          }
+        },
+        "12": {
+          "number": 12,
+          "location": {
+            "chapter": 2,
+            "verse": 12
+          },
+          "languages": {
+            "sa": {
+              "text": "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः।\nन चैव न भविष्यामः सर्वे वयमतः परम्॥२-१२॥",
+              "transliteration": "na tvevāhaṃ jātu nāsaṃ na tvaṃ neme janādhipāḥ\nna caiva na bhaviṣyāmaḥ sarve vayam ataḥ param"
+            },
+            "en": {
+              "text": "Never was there a time when I did not exist, nor you, nor all these kings; nor in the future shall any of us cease to be.",
+              "transliteration": null
+            }
+          }
+        },
+        "13": {
+          "number": 13,
+          "location": {
+            "chapter": 2,
+            "verse": 13
+          },
+          "languages": {
+            "sa": {
+              "text": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा।\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति॥२-१३॥",
+              "transliteration": "dehino 'smin yathā dehe kaumāraṃ yauvanaṃ jarā\ntathā dehāntaraprāptir dhīras tatra na muhyati"
+            },
+            "en": {
+              "text": "Just as the embodied self passes through childhood, youth, and old age in this body, so does it pass into another body. The wise are not deluded by this.",
+              "transliteration": null
+            }
+          }
+        },
+        "14": {
+          "number": 14,
+          "location": {
+            "chapter": 2,
+            "verse": 14
+          },
+          "languages": {
+            "sa": {
+              "text": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः।\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत॥२-१४॥",
+              "transliteration": "mātrāsparśās tu kaunteya śītoṣṇasukhaduḥkhadāḥ\nāgamāpāyino 'nityās tāṃs titikṣasva bhārata"
+            },
+            "en": {
+              "text": "O son of Kunti, contacts with matter give rise to heat and cold, pleasure and pain. They come and go and are impermanent. Endure them bravely, O descendant of Bharata.",
+              "transliteration": null
+            }
+          }
+        },
+        "15": {
+          "number": 15,
+          "location": {
+            "chapter": 2,
+            "verse": 15
+          },
+          "languages": {
+            "sa": {
+              "text": "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ।\nसमदुःखसुखं धीरं सोऽमृतत्वाय कल्पते॥२-१५॥",
+              "transliteration": "yaṃ hi na vyathayanty ete puruṣaṃ puruṣarṣabha\nsamaduḥkhasukhaṃ dhīraṃ so 'mṛtatvāya kalpate"
+            },
+            "en": {
+              "text": "That person who is not disturbed by these, O best of men, who is steady in pleasure and pain, is fit for immortality.",
+              "transliteration": null
+            }
+          }
+        },
+        "16": {
+          "number": 16,
+          "location": {
+            "chapter": 2,
+            "verse": 16
+          },
+          "languages": {
+            "sa": {
+              "text": "नासतो विद्यते भावो नाभावो विद्यते सतः।\nउभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः॥२-१६॥",
+              "transliteration": "nāsato vidyate bhāvo nābhāvo vidyate sataḥ\nubhayor api dṛṣṭo 'ntas tv anayos tattvadarśibhiḥ"
+            },
+            "en": {
+              "text": "The unreal has no existence; the real never ceases to be. The truth about both has been seen by the seers of reality.",
+              "transliteration": null
+            }
+          }
+        },
+        "17": {
+          "number": 17,
+          "location": {
+            "chapter": 2,
+            "verse": 17
+          },
+          "languages": {
+            "sa": {
+              "text": "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम्।\nविनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति॥२-१७॥",
+              "transliteration": "avināśi tu tad viddhi yena sarvam idaṃ tatam\nvināśam avyayasyāsya na kaścit kartum arhati"
+            },
+            "en": {
+              "text": "Know that by which all this is pervaded to be indestructible. No one can bring about the destruction of this immutable being.",
+              "transliteration": null
+            }
+          }
+        },
+        "18": {
+          "number": 18,
+          "location": {
+            "chapter": 2,
+            "verse": 18
+          },
+          "languages": {
+            "sa": {
+              "text": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः।\nअनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत॥२-१८॥",
+              "transliteration": "antavanta ime dehā nityasyoktāḥ śarīriṇaḥ\nanāśino 'prameyasya tasmād yudhyasva bhārata"
+            },
+            "en": {
+              "text": "These bodies of the eternal, imperishable, and immeasurable embodied self are said to be perishable. Therefore fight, O descendant of Bharata.",
+              "transliteration": null
+            }
+          }
+        },
+        "19": {
+          "number": 19,
+          "location": {
+            "chapter": 2,
+            "verse": 19
+          },
+          "languages": {
+            "sa": {
+              "text": "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम्।\nउभौ तौ न विजानीतो नायं हन्ति न हन्यते॥२-१९॥",
+              "transliteration": "ya enaṃ vetti hantāraṃ yaś cainaṃ manyate hatam\nubhau tau na vijānīto nāyaṃ hanti na hanyate"
+            },
+            "en": {
+              "text": "He who thinks that the self slays, and he who thinks that it is slain, are both ignorant. The self neither slays nor is slain.",
+              "transliteration": null
+            }
+          }
+        },
+        "20": {
+          "number": 20,
+          "location": {
+            "chapter": 2,
+            "verse": 20
+          },
+          "languages": {
+            "sa": {
+              "text": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः।\nअजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे॥२-२०॥",
+              "transliteration": "na jāyate mriyate vā kadācin nāyaṃ bhūtvā bhavitā vā na bhūyaḥ\najo nityaḥ śāśvato 'yaṃ purāṇo na hanyate hanyamāne śarīre"
+            },
+            "en": {
+              "text": "The self is never born nor does it ever die; nor having come into existence will it again cease to be. It is unborn, eternal, everlasting, and primeval. It is not slain when the body is slain.",
+              "transliteration": null
+            }
+          }
+        },
+        "21": {
+          "number": 21,
+          "location": {
+            "chapter": 2,
+            "verse": 21
+          },
+          "languages": {
+            "sa": {
+              "text": "वेदाविनाशिनं नित्यं य एनमजमव्ययम्।\nकथं स पुरुषः पार्थ कं घातयति हन्ति कम्॥२-२१॥",
+              "transliteration": "vedāvināśinaṃ nityaṃ ya enam ajam avyayam\nkathaṃ sa puruṣaḥ pārtha kaṃ ghātayati hanti kam"
+            },
+            "en": {
+              "text": "O Partha, how can that person who knows the self to be indestructible, eternal, unborn, and immutable cause anyone to be slain or slay anyone?",
+              "transliteration": null
+            }
+          }
+        },
+        "22": {
+          "number": 22,
+          "location": {
+            "chapter": 2,
+            "verse": 22
+          },
+          "languages": {
+            "sa": {
+              "text": "वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि।\nतथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही॥२-२२॥",
+              "transliteration": "vāsāṃsi jīrṇāni yathā vihāya navāni gṛhṇāti naro 'parāṇi\ntathā śarīrāṇi vihāya jīrṇāny anyāni saṃyāti navāni dehī"
+            },
+            "en": {
+              "text": "Just as a person casts off worn-out garments and puts on others that are new, even so the embodied self casts off worn-out bodies and enters others that are new.",
+              "transliteration": null
+            }
+          }
+        },
+        "23": {
+          "number": 23,
+          "location": {
+            "chapter": 2,
+            "verse": 23
+          },
+          "languages": {
+            "sa": {
+              "text": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः।\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः॥२-२३॥",
+              "transliteration": "nainaṃ chindanti śastrāṇi nainaṃ dahati pāvakaḥ\nna cainaṃ kledayanty āpo na śoṣayati mārutaḥ"
+            },
+            "en": {
+              "text": "Weapons cannot cut the self, nor can fire burn it; water cannot wet it, nor can wind dry it.",
+              "transliteration": null
+            }
+          }
+        },
+        "24": {
+          "number": 24,
+          "location": {
+            "chapter": 2,
+            "verse": 24
+          },
+          "languages": {
+            "sa": {
+              "text": "अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च।\nनित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः॥२-२४॥",
+              "transliteration": "acchedyo 'yam adāhyo 'yam akledyo 'śoṣya eva ca\nnityaḥ sarvagataḥ sthāṇur acalo 'yaṃ sanātanaḥ"
+            },
+            "en": {
+              "text": "The self is uncleavable, incombustible, unwettable, and undryable. It is eternal, all-pervading, stable, immovable, and primeval.",
+              "transliteration": null
+            }
+          }
+        },
+        "25": {
+          "number": 25,
+          "location": {
+            "chapter": 2,
+            "verse": 25
+          },
+          "languages": {
+            "sa": {
+              "text": "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते।\nतस्मादेवं विदित्वैनं नानुशोचितुमर्हसि॥२-२५॥",
+              "transliteration": "avyakto 'yam acintyo 'yam avikāryo 'yam ucyate\ntasmād evaṃ viditvainaṃ nānuśocitum arhasi"
+            },
+            "en": {
+              "text": "The self is said to be unmanifest, unthinkable, and immutable. Therefore, knowing it as such, you should not grieve.",
+              "transliteration": null
+            }
+          }
+        },
+        "26": {
+          "number": 26,
+          "location": {
+            "chapter": 2,
+            "verse": 26
+          },
+          "languages": {
+            "sa": {
+              "text": "अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम्।\nतथापि त्वं महाबाहो नैवं शोचितुमर्हसि॥२-२६॥",
+              "transliteration": "atha cainaṃ nityajātaṃ nityaṃ vā manyase mṛtam\ntathāpi tvaṃ mahābāho naivaṃ śocitum arhasi"
+            },
+            "en": {
+              "text": "Even if you think that the self is perpetually born and perpetually dies, even then, O mighty-armed, you should not grieve.",
+              "transliteration": null
+            }
+          }
+        },
+        "27": {
+          "number": 27,
+          "location": {
+            "chapter": 2,
+            "verse": 27
+          },
+          "languages": {
+            "sa": {
+              "text": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च।\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि॥२-२७॥",
+              "transliteration": "jātasya hi dhruvo mṛtyur dhruvaṃ janma mṛtasya ca\ntasmād aparihārye 'rthe na tvaṃ śocitum arhasi"
+            },
+            "en": {
+              "text": "For death is certain for one who is born, and birth is certain for one who dies. Therefore, for what is unavoidable, you should not grieve.",
+              "transliteration": null
+            }
+          }
+        },
+        "28": {
+          "number": 28,
+          "location": {
+            "chapter": 2,
+            "verse": 28
+          },
+          "languages": {
+            "sa": {
+              "text": "अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत।\nअव्यक्तनिधनान्येव तत्र का परिदेवना॥२-२८॥",
+              "transliteration": "avyaktādīni bhūtāni vyaktamadhyāni bhārata\navyaktanidhanāny eva tatra kā parivedanā"
+            },
+            "en": {
+              "text": "All beings are unmanifest before birth, manifest in the interim, and unmanifest again after death. So why lament?",
+              "transliteration": null
+            }
+          }
+        },
+        "29": {
+          "number": 29,
+          "location": {
+            "chapter": 2,
+            "verse": 29
+          },
+          "languages": {
+            "sa": {
+              "text": "आश्चर्यवत्पश्यति कश्चिदेनमाश्चर्यवद्वदति तथैव चान्यः।\nआश्चर्यवच्चैनमन्यः शृणोति श्रुत्वाप्येनं वेद न चैव कश्चित्॥२-२९॥",
+              "transliteration": "āścaryavat paśyati kaścid enam āścaryavad vadati tathaiva cānyaḥ\nāścaryavac cainam anyaḥ śṛṇoti śrutvāpy enaṃ veda na caiva kaścit"
+            },
+            "en": {
+              "text": "One sees the self as a marvel; another speaks of it as a marvel; yet another hears of it as a marvel; but even after hearing, no one actually knows it.",
+              "transliteration": null
+            }
+          }
+        },
+        "30": {
+          "number": 30,
+          "location": {
+            "chapter": 2,
+            "verse": 30
+          },
+          "languages": {
+            "sa": {
+              "text": "देही नित्यमवध्योऽयं देहे सर्वस्य भारत।\nतस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि॥२-३०॥",
+              "transliteration": "dehī nityam avadhyo 'yaṃ dehe sarvasya bhārata\ntasmāt sarvāṇi bhūtāni na tvaṃ śocitum arhasi"
+            },
+            "en": {
+              "text": "The embodied self in everyone's body, O descendant of Bharata, is eternally indestructible. Therefore, you should not grieve for any creature.",
+              "transliteration": null
+            }
+          }
+        },
+        "31": {
+          "number": 31,
+          "location": {
+            "chapter": 2,
+            "verse": 31
+          },
+          "languages": {
+            "sa": {
+              "text": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि।\nधर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते॥२-३१॥",
+              "transliteration": "svadharmam api cāvekṣya na vikampitum arhasi\ndharmyād dhi yuddhāc chreyo 'nyat kṣatriyasya na vidyate"
+            },
+            "en": {
+              "text": "Considering your own duty as a Kshatriya, you should not waver, for there is nothing more auspicious for a Kshatriya than a righteous war.",
+              "transliteration": null
+            }
+          }
+        },
+        "32": {
+          "number": 32,
+          "location": {
+            "chapter": 2,
+            "verse": 32
+          },
+          "languages": {
+            "sa": {
+              "text": "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम्।\nसुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम्॥२-३२॥",
+              "transliteration": "yadṛcchayā copapannaṃ svargadvāram apāvṛtam\nsukhinaḥ kṣatriyāḥ pārtha labhante yuddham īdṛśam"
+            },
+            "en": {
+              "text": "Happy are the Kshatriyas, O Partha, to whom such a war comes unsought, opening for them the doors of heaven.",
+              "transliteration": null
+            }
+          }
+        },
+        "33": {
+          "number": 33,
+          "location": {
+            "chapter": 2,
+            "verse": 33
+          },
+          "languages": {
+            "sa": {
+              "text": "अथ चेत्त्वमिमं धर्म्यं सङ्ग्रामं न करिष्यसि।\nततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि॥२-३३॥",
+              "transliteration": "atha cet tvam imaṃ dharmyaṃ saṅgrāmaṃ na kariṣyasi\ntataḥ svadharmaṃ kīrtiṃ ca hitvā pāpam avāpsyasi"
+            },
+            "en": {
+              "text": "If, however, you do not fight this righteous war, then, having abandoned your duty and honor, you will incur sin.",
+              "transliteration": null
+            }
+          }
+        },
+        "34": {
+          "number": 34,
+          "location": {
+            "chapter": 2,
+            "verse": 34
+          },
+          "languages": {
+            "sa": {
+              "text": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम्।\nसम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते॥२-३४॥",
+              "transliteration": "akīrtiṃ cāpi bhūtāni kathayiṣyanti te 'vyayām\nsambhāvitasya cākīrtir maraṇād atiricyate"
+            },
+            "en": {
+              "text": "People will forever speak of your infamy, and for one who has been honored, dishonor is worse than death.",
+              "transliteration": null
+            }
+          }
+        },
+        "35": {
+          "number": 35,
+          "location": {
+            "chapter": 2,
+            "verse": 35
+          },
+          "languages": {
+            "sa": {
+              "text": "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः।\nयेषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम्॥२-३५॥",
+              "transliteration": "bhayād raṇād uparataṃ maṃsyante tvāṃ mahārathāḥ\nyeṣāṃ ca tvaṃ bahumato bhūtvā yāsyasi lāghavam"
+            },
+            "en": {
+              "text": "The great charioteers will think that you have withdrawn from battle out of fear, and you, who were highly esteemed by them, will be thought lightly of.",
+              "transliteration": null
+            }
+          }
+        },
+        "36": {
+          "number": 36,
+          "location": {
+            "chapter": 2,
+            "verse": 36
+          },
+          "languages": {
+            "sa": {
+              "text": "अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः।\nनिन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम्॥२-३६॥",
+              "transliteration": "avācyavādāṃś ca bahūn vadiṣyanti tavāhitāḥ\nnindantas tava sāmarthyaṃ tato duḥkhataraṃ nu kim"
+            },
+            "en": {
+              "text": "Your enemies will speak many unmentionable words, disparaging your prowess. What could be more painful than that?",
+              "transliteration": null
+            }
+          }
+        },
+        "37": {
+          "number": 37,
+          "location": {
+            "chapter": 2,
+            "verse": 37
+          },
+          "languages": {
+            "sa": {
+              "text": "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम्।\nतस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः॥२-३७॥",
+              "transliteration": "hato vā prāpsyasi svargaṃ jitvā vā bhokṣyase mahīm\ntasmād uttiṣṭha kaunteya yuddhāya kṛtaniścayaḥ"
+            },
+            "en": {
+              "text": "If you are killed, you will attain heaven; if victorious, you will enjoy the earth. Therefore, arise, O son of Kunti, resolved to fight.",
+              "transliteration": null
+            }
+          }
+        },
+        "38": {
+          "number": 38,
+          "location": {
+            "chapter": 2,
+            "verse": 38
+          },
+          "languages": {
+            "sa": {
+              "text": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ।\nततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि॥२-३८॥",
+              "transliteration": "sukhaduḥkhe same kṛtvā lābhālābhau jayājayau\ntato yuddhāya yujyasva naivaṃ pāpam avāpsyasi"
+            },
+            "en": {
+              "text": "Fight, treating alike pleasure and pain, gain and loss, victory and defeat. By doing so, you will not incur sin.",
+              "transliteration": null
+            }
+          }
+        },
+        "39": {
+          "number": 39,
+          "location": {
+            "chapter": 2,
+            "verse": 39
+          },
+          "languages": {
+            "sa": {
+              "text": "एषा तेऽभिहिता साङ्ख्ये बुद्धिर्योगे त्विमां शृणु।\nबुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि॥२-३९॥",
+              "transliteration": "eṣā te 'bhihitā sāṅkhye buddhir yoge tv imāṃ śṛṇu\nbuddhyā yukto yayā pārtha karmabandhaṃ prahāsyasi"
+            },
+            "en": {
+              "text": "Thus far I have explained to you the wisdom of Sankhya. Now listen to the wisdom of Yoga, endowed with which, O Partha, you will break the bonds of karma.",
+              "transliteration": null
+            }
+          }
+        },
+        "40": {
+          "number": 40,
+          "location": {
+            "chapter": 2,
+            "verse": 40
+          },
+          "languages": {
+            "sa": {
+              "text": "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते।\nस्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात्॥२-४०॥",
+              "transliteration": "nehābhikramanāśo 'sti pratyavāyo na vidyate\nsvalpam apy asya dharmasya trāyate mahato bhayāt"
+            },
+            "en": {
+              "text": "In this path, no effort is ever lost, nor is there any danger of adverse results. Even a little practice of this dharma protects one from great fear.",
+              "transliteration": null
+            }
+          }
+        },
+        "41": {
+          "number": 41,
+          "location": {
+            "chapter": 2,
+            "verse": 41
+          },
+          "languages": {
+            "sa": {
+              "text": "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन।\nबहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम्॥२-४१॥",
+              "transliteration": "vyavasāyātmikā buddhir ekeha kurunandana\nbahuśākhā hy anantāś ca buddhayo 'vyavasāyinām"
+            },
+            "en": {
+              "text": "O joy of the Kurus, the intellect of those who are resolute is single-pointed, whereas the thoughts of the irresolute are many-branched and endless.",
+              "transliteration": null
+            }
+          }
+        },
+        "42": {
+          "number": 42,
+          "location": {
+            "chapter": 2,
+            "verse": 42
+          },
+          "languages": {
+            "sa": {
+              "text": "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः।\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः॥२-४२॥",
+              "transliteration": "yām imāṃ puṣpitāṃ vācaṃ pravadanty avipaścitaḥ\nvedavādaratāḥ pārtha nānyad astīti vādinaḥ"
+            },
+            "en": {
+              "text": "Flowery speech is uttered by the unwise, who take pleasure in the words of the Vedas, saying, \"There is nothing else.\"",
+              "transliteration": null
+            }
+          }
+        },
+        "43": {
+          "number": 43,
+          "location": {
+            "chapter": 2,
+            "verse": 43
+          },
+          "languages": {
+            "sa": {
+              "text": "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम्।\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति॥२-४३॥",
+              "transliteration": "kāmātmānaḥ svargaparā janmakarmaphalapradām\nkriyāviśeṣabahulāṃ bhogaiśvaryagatiṃ prati"
+            },
+            "en": {
+              "text": "Full of desires, having heaven as their goal, they utter flowery words that promise birth as the result of actions, and prescribe various rituals for the attainment of pleasure and power.",
+              "transliteration": null
+            }
+          }
+        },
+        "44": {
+          "number": 44,
+          "location": {
+            "chapter": 2,
+            "verse": 44
+          },
+          "languages": {
+            "sa": {
+              "text": "भोगैश्वर्यप्रसक्तानां तयाऽपहृतचेतसाम्।\nव्यवसायात्मिका बुद्धिः समाधौ न विधीयते॥२-४४॥",
+              "transliteration": "bhogaiśvaryaprasaktānāṃ tayāpahṛtacetasām\nvyavasāyātmikā buddhiḥ samādhau na vidhīyate"
+            },
+            "en": {
+              "text": "In the minds of those who are overly attached to pleasure and power, and whose discernment is stolen by such talk, the resolute intellect for concentration does not develop.",
+              "transliteration": null
+            }
+          }
+        },
+        "45": {
+          "number": 45,
+          "location": {
+            "chapter": 2,
+            "verse": 45
+          },
+          "languages": {
+            "sa": {
+              "text": "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन।\nनिर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान्॥२-४५॥",
+              "transliteration": "traiguṇyaviṣayā vedā nistraiguṇyo bhavārjuna\nnirdvandvo nityasattvastho niryogakṣema ātmavān"
+            },
+            "en": {
+              "text": "The Vedas deal with the three gunas (modes of material nature). O Arjuna, be free from the three gunas, free from duality, ever steadfast in purity, free from the thought of acquisition and preservation, and established in the self.",
+              "transliteration": null
+            }
+          }
+        },
+        "46": {
+          "number": 46,
+          "location": {
+            "chapter": 2,
+            "verse": 46
+          },
+          "languages": {
+            "sa": {
+              "text": "यावानर्थ उदपाने सर्वतः सम्प्लुतोदके।\nतावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः॥२-४६॥",
+              "transliteration": "yāvān artha udapāne sarvataḥ samplutodake\ntāvān sarveṣu vedeṣu brāhmaṇasya vijānataḥ"
+            },
+            "en": {
+              "text": "To the enlightened brahmana, all the Vedas are of as much use as a small water reservoir is when there is a flood everywhere.",
+              "transliteration": null
+            }
+          }
+        },
+        "47": {
+          "number": 47,
+          "location": {
+            "chapter": 2,
+            "verse": 47
+          },
+          "languages": {
+            "sa": {
+              "text": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥२-४७॥",
+              "transliteration": "karmaṇy evādhikāras te mā phaleṣu kadācana\nmā karmaphalahetur bhūr mā te saṅgo 'stv akarmaṇi"
+            },
+            "en": {
+              "text": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself the cause of the results of your activities, nor be attached to inaction.",
+              "transliteration": null
+            }
+          }
+        },
+        "48": {
+          "number": 48,
+          "location": {
+            "chapter": 2,
+            "verse": 48
+          },
+          "languages": {
+            "sa": {
+              "text": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते॥२-४८॥",
+              "transliteration": "yogasthaḥ kuru karmaṇi saṅgaṃ tyaktvā dhanañjaya\n siddhyasiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate"
+            },
+            "en": {
+              "text": "Perform your duties equipoised, O Dhananjaya, abandoning all attachment to success or failure. Such equanimity is called yoga.",
+              "transliteration": null
+            }
+          }
+        },
+        "49": {
+          "number": 49,
+          "location": {
+            "chapter": 2,
+            "verse": 49
+          },
+          "languages": {
+            "sa": {
+              "text": "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय।\nबुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः॥२-४९॥",
+              "transliteration": "dūreṇa hy avaraṃ karma buddhiyogād dhanañjaya\nbuddhau śaraṇam anviccha kṛpaṇāḥ phalahetavaḥ"
+            },
+            "en": {
+              "text": "Far inferior indeed is mere action to the yoga of wisdom, O Dhananjaya. Seek refuge in wisdom; wretched are those who are motivated by the fruits of action.",
+              "transliteration": null
+            }
+          }
+        },
+        "50": {
+          "number": 50,
+          "location": {
+            "chapter": 2,
+            "verse": 50
+          },
+          "languages": {
+            "sa": {
+              "text": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम्॥२-५०॥",
+              "transliteration": "buddhiyukto jahātīha ubhe sukṛtaduṣkṛte\ntasmād yogāya yujyasva yogaḥ karmasu kauśalam"
+            },
+            "en": {
+              "text": "Endowed with wisdom, one casts off in this life both good and bad deeds. Therefore, strive for yoga; yoga is skill in action.",
+              "transliteration": null
+            }
+          }
+        },
+        "51": {
+          "number": 51,
+          "location": {
+            "chapter": 2,
+            "verse": 51
+          },
+          "languages": {
+            "sa": {
+              "text": "कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः।\nजन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम्॥२-५१॥",
+              "transliteration": "karmajaṃ buddhiyuktā hi phalaṃ tyaktvā manīṣiṇaḥ\njanmabandhavinirmuktāḥ padaṃ gacchanty anāmayam"
+            },
+            "en": {
+              "text": "The wise, endowed with wisdom, renouncing the fruits born of actions, freed from the bondage of birth, go to the state beyond suffering.",
+              "transliteration": null
+            }
+          }
+        },
+        "52": {
+          "number": 52,
+          "location": {
+            "chapter": 2,
+            "verse": 52
+          },
+          "languages": {
+            "sa": {
+              "text": "यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति।\nतदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च॥२-५२॥",
+              "transliteration": "yadā te mohakalilaṃ buddhir vyatitariṣyati\ntadā gantāsi nirvedaṃ śrotavyasya śrutasya ca"
+            },
+            "en": {
+              "text": "When your intellect crosses the mire of delusion, then you will attain indifference to what has been heard and what is yet to be heard.",
+              "transliteration": null
+            }
+          }
+        },
+        "53": {
+          "number": 53,
+          "location": {
+            "chapter": 2,
+            "verse": 53
+          },
+          "languages": {
+            "sa": {
+              "text": "श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला।\nसमाधावचला बुद्धिस्तदा योगमवाप्स्यसि॥२-५३॥",
+              "transliteration": "śrutivipratipannā te yadā sthāsyati niścalā\nsamādhāvacalā buddhis tadā yogam avāpsyasi"
+            },
+            "en": {
+              "text": "When your intellect, which is bewildered by the Vedic texts, shall stand firm and steady in concentration, then you shall attain yoga.",
+              "transliteration": null
+            }
+          }
+        },
+        "54": {
+          "number": 54,
+          "location": {
+            "chapter": 2,
+            "verse": 54
+          },
+          "languages": {
+            "sa": {
+              "text": "अर्जुन उवाच\nस्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव।\nस्थितधीः किं प्रभाषेत किमासीत व्रजेत किम्॥२-५४॥",
+              "transliteration": "arjuna uvāca\nsthitaprajñasya kā bhāṣā samādhisthasya keśava\nsthitadhīḥ kiṃ prabhāṣeta kim āsīta vrajeta kim"
+            },
+            "en": {
+              "text": "Arjuna said: O Keshava, what is the description of one who is steady in wisdom, absorbed in samadhi? How does the person of steady wisdom speak, sit, and walk?",
+              "transliteration": null
+            }
+          }
+        },
+        "55": {
+          "number": 55,
+          "location": {
+            "chapter": 2,
+            "verse": 55
+          },
+          "languages": {
+            "sa": {
+              "text": "श्रीभगवानुवाच\nप्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान्।\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते॥२-५५॥",
+              "transliteration": "śrībhagavān uvāca\nprajahāti yadā kāmān sarvān pārtha manogatān\nātmany evātmanā tuṣṭaḥ sthitaprajñas tadocyate"
+            },
+            "en": {
+              "text": "The Blessed Lord said: O Partha, when one fully renounces all desires that enter the mind, and is satisfied in the self by the self, then one is said to be steady in wisdom.",
+              "transliteration": null
+            }
+          }
+        },
+        "56": {
+          "number": 56,
+          "location": {
+            "chapter": 2,
+            "verse": 56
+          },
+          "languages": {
+            "sa": {
+              "text": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः।\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते॥२-५६॥",
+              "transliteration": "duḥkheṣv anudvignamanāḥ sukheṣu vigataspṛhaḥ\nvītarāgabhayakrodhaḥ sthitadhīr munir ucyate"
+            },
+            "en": {
+              "text": "One whose mind is not shaken by adversity, who does not hanker after pleasures, and who is free from attachment, fear, and anger, is called a sage of steady wisdom.",
+              "transliteration": null
+            }
+          }
+        },
+        "57": {
+          "number": 57,
+          "location": {
+            "chapter": 2,
+            "verse": 57
+          },
+          "languages": {
+            "sa": {
+              "text": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम्।\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता॥२-५७॥",
+              "transliteration": "yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā"
+            },
+            "en": {
+              "text": "One who is without attachment anywhere, who does not rejoice or hate upon obtaining good or evil, has steady wisdom.",
+              "transliteration": null
+            }
+          }
+        },
+        "58": {
+          "number": 58,
+          "location": {
+            "chapter": 2,
+            "verse": 58
+          },
+          "languages": {
+            "sa": {
+              "text": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः।\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता॥२-५८॥",
+              "transliteration": "yadā saṃharate cāyaṃ kūrmo 'ṅgānīva sarvaśaḥ\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā"
+            },
+            "en": {
+              "text": "When, like a tortoise withdrawing its limbs, one withdraws the senses from sense objects, then one's wisdom becomes steady.",
+              "transliteration": null
+            }
+          }
+        },
+        "59": {
+          "number": 59,
+          "location": {
+            "chapter": 2,
+            "verse": 59
+          },
+          "languages": {
+            "sa": {
+              "text": "विषया विनिवर्तन्ते निराहारस्य देहिनः।\nरसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते॥२-५९॥",
+              "transliteration": "viṣayā vinivartante nirāhārasya dehinaḥ\nrasavarjaṃ raso 'py asya paraṃ dṛṣṭvā nivartate"
+            },
+            "en": {
+              "text": "The embodied soul may restrain the senses from objects, but the taste for sense objects remains. However, even that taste ceases when the Supreme is seen.",
+              "transliteration": null
+            }
+          }
+        },
+        "60": {
+          "number": 60,
+          "location": {
+            "chapter": 2,
+            "verse": 60
+          },
+          "languages": {
+            "sa": {
+              "text": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः।\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः॥२-६०॥",
+              "transliteration": "yatato hy api kaunteya puruṣasya vipaścitaḥ\nindriyāṇi pramāthīni haranti prasabhaṃ manaḥ"
+            },
+            "en": {
+              "text": "The turbulent senses, O son of Kunti, forcibly carry away the mind of even a wise person striving for perfection.",
+              "transliteration": null
+            }
+          }
+        },
+        "61": {
+          "number": 61,
+          "location": {
+            "chapter": 2,
+            "verse": 61
+          },
+          "languages": {
+            "sa": {
+              "text": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता॥२-६१॥",
+              "transliteration": "tāni sarvāṇi saṃyamya yukta āsīta matparaḥ\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā"
+            },
+            "en": {
+              "text": "Having restrained all the senses, one should sit steadfast, intent on Me. For, one whose senses are under control has steady wisdom.",
+              "transliteration": null
+            }
+          }
+        },
+        "62": {
+          "number": 62,
+          "location": {
+            "chapter": 2,
+            "verse": 62
+          },
+          "languages": {
+            "sa": {
+              "text": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते।\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते॥२-६२॥",
+              "transliteration": "dhyāyato viṣayān puṃsaḥ saṅgas teṣūpajāyate\nsaṅgāt sañjāyate kāmaḥ kāmāt krodho 'bhijāyate"
+            },
+            "en": {
+              "text": "When a person dwells on sense objects, attachment to them arises. From attachment arises desire, and from desire arises anger.",
+              "transliteration": null
+            }
+          }
+        },
+        "63": {
+          "number": 63,
+          "location": {
+            "chapter": 2,
+            "verse": 63
+          },
+          "languages": {
+            "sa": {
+              "text": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः।\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति॥२-६३॥",
+              "transliteration": "krodhād bhavati sammohaḥ sammohāt smṛtivibhramaḥ\nsmṛtibhraṃśād buddhināśo buddhināśāt praṇaśyati"
+            },
+            "en": {
+              "text": "From anger arises delusion; from delusion, confusion of memory; from confusion of memory, loss of intellect; and from loss of intellect, one perishes.",
+              "transliteration": null
+            }
+          }
+        },
+        "64": {
+          "number": 64,
+          "location": {
+            "chapter": 2,
+            "verse": 64
+          },
+          "languages": {
+            "sa": {
+              "text": "रागद्वेषवियुक्तैस्तु विषयानिन्द्रियैश्चरन्।\nआत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति॥२-६४॥",
+              "transliteration": "rāgadveṣaviyuktais tu viṣayān indriyaiś caran\nātmavaśyair vidheyātmā prasādam adhigacchati"
+            },
+            "en": {
+              "text": "But the self-controlled person, moving among sense objects with senses free from attachment and aversion, and brought under control, attains tranquility.",
+              "transliteration": null
+            }
+          }
+        },
+        "65": {
+          "number": 65,
+          "location": {
+            "chapter": 2,
+            "verse": 65
+          },
+          "languages": {
+            "sa": {
+              "text": "प्रसादे सर्वदुःखानां हानिरस्योपजायते।\nप्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते॥२-६५॥",
+              "transliteration": "prasāde sarvaduḥkhānāṃ hānir asyopajāyate\nprasannacetaso hy āśu buddhiḥ paryavatiṣṭhate"
+            },
+            "en": {
+              "text": "In tranquility, all sorrow is destroyed. For the intellect of the tranquil-minded person quickly becomes steady.",
+              "transliteration": null
+            }
+          }
+        },
+        "66": {
+          "number": 66,
+          "location": {
+            "chapter": 2,
+            "verse": 66
+          },
+          "languages": {
+            "sa": {
+              "text": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना।\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम्॥२-६६॥",
+              "transliteration": "nāsti buddhir ayuktasya na cāyuktasya bhāvanā\nna cābhāvayataḥ śāntir aśāntasya kutaḥ sukham"
+            },
+            "en": {
+              "text": "There is no wisdom for the unintegrated person, nor meditation, nor peace. And for the unpeaceful, how can there be happiness?",
+              "transliteration": null
+            }
+          }
+        },
+        "67": {
+          "number": 67,
+          "location": {
+            "chapter": 2,
+            "verse": 67
+          },
+          "languages": {
+            "sa": {
+              "text": "इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते।\nतदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि॥२-६७॥",
+              "transliteration": "indriyāṇāṃ hi caratāṃ yan mano 'nuvidhīyate\ntad asya harati prajñāṃ vāyur nāvam ivāmbhasi"
+            },
+            "en": {
+              "text": "For, the mind that follows the wandering senses carries away one's wisdom, as the wind carries away a boat on the water.",
+              "transliteration": null
+            }
+          }
+        },
+        "68": {
+          "number": 68,
+          "location": {
+            "chapter": 2,
+            "verse": 68
+          },
+          "languages": {
+            "sa": {
+              "text": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः।\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता॥२-६८॥",
+              "transliteration": "tasmād yasya mahābāho nigṛhītāni sarvaśaḥ\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā"
+            },
+            "en": {
+              "text": "Therefore, O mighty-armed one, one whose senses are completely restrained from their objects has steady wisdom.",
+              "transliteration": null
+            }
+          }
+        },
+        "69": {
+          "number": 69,
+          "location": {
+            "chapter": 2,
+            "verse": 69
+          },
+          "languages": {
+            "sa": {
+              "text": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी।\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः॥२-६९॥",
+              "transliteration": "yā niśā sarvabhūtānāṃ tasyāṃ jāgarti saṃyamī\nyasyāṃ jāgrati bhūtāni sā niśā paśyato muneḥ"
+            },
+            "en": {
+              "text": "That which is night for all beings is the time of awakening for the self-controlled; and that which is the time of awakening for all beings is night for the sage who sees.",
+              "transliteration": null
+            }
+          }
+        },
+        "70": {
+          "number": 70,
+          "location": {
+            "chapter": 2,
+            "verse": 70
+          },
+          "languages": {
+            "sa": {
+              "text": "आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत्।\nतद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी॥२-७०॥",
+              "transliteration": "āpūryamāṇam acalapratiṣṭhaṃ samudram āpaḥ praviśanti yadvat\ntadvat kāmā yaṃ praviśanti sarve sa śāntim āpnoti na kāmakāmī"
+            },
+            "en": {
+              "text": "Just as the ocean remains undisturbed by the incessant flow of waters from rivers merging into it, likewise the sage who is unmoved despite the flow of desires attains peace, and not the person who strives to satisfy desires.",
+              "transliteration": null
+            }
+          }
+        },
+        "71": {
+          "number": 71,
+          "location": {
+            "chapter": 2,
+            "verse": 71
+          },
+          "languages": {
+            "sa": {
+              "text": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः।\nनिर्ममो निरहंकारः स शान्तिमधिगच्छति॥२-७१॥",
+              "transliteration": "vihāya kāmān yaḥ sarvān pumāṃś carati niḥspṛhaḥ\nnirmamo nirahaṅkāraḥ sa śāntim adhigacchati"
+            },
+            "en": {
+              "text": "That person who abandons all desires and acts free from longing, without any sense of proprietorship or ego, attains peace.",
+              "transliteration": null
+            }
+          }
+        },
+        "72": {
+          "number": 72,
+          "location": {
+            "chapter": 2,
+            "verse": 72
+          },
+          "languages": {
+            "sa": {
+              "text": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति।\nस्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति॥२-७२॥",
+              "transliteration": "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati\nsthitvāsyām antakāle 'pi brahmanirvāṇam ṛcchati"
+            },
+            "en": {
+              "text": "This is the state of Brahman, O Partha. Having attained this, one is not deluded. Established in this state even at the hour of death, one attains liberation in Brahman.",
+              "transliteration": null
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "number": 3,
+      "title": {
+        "sa": "कर्मयोग",
+        "en": "The Yoga of Action"
+      },
+      "verseCount": 43,
+      "verses": {
+        "1": {
+          "number": 1,
+          "location": {
+            "chapter": 3,
+            "verse": 1
+          },
+          "languages": {
+            "sa": {
+              "text": "अर्जुन उवाच\nज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन।\nतत्किं कर्मणि घोरे मां नियोजयसि केशव॥३-१॥",
+              "transliteration": "arjuna uvāca\njyāyasī cet karmaṇas te matā buddhir janārdana\ntat kiṃ karmaṇi ghore māṃ niyojayasi keśava"
+            },
+            "en": {
+              "text": "Arjuna said: O Janardana, if You consider knowledge superior to action, then why do You engage me in this terrible action, O Keshava?",
+              "transliteration": null
+            }
+          }
+        },
+        "2": {
+          "number": 2,
+          "location": {
+            "chapter": 3,
+            "verse": 2
+          },
+          "languages": {
+            "sa": {
+              "text": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे।\nतदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम्॥३-२॥",
+              "transliteration": "vyāmiśreṇeva vākyena buddhiṃ mohayasīva me\ntad ekaṃ vada niścitya yena śreyo 'ham āpnuyām"
+            },
+            "en": {
+              "text": "With seemingly conflicting words You confuse my understanding. Therefore, tell me decisively that one path by which I may attain the highest good.",
+              "transliteration": null
+            }
+          }
+        },
+        "3": {
+          "number": 3,
+          "location": {
+            "chapter": 3,
+            "verse": 3
+          },
+          "languages": {
+            "sa": {
+              "text": "श्रीभगवानुवाच\nलोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ।\nज्ञानयोगेन साङ्ख्यानां कर्मयोगेन योगिनाम्॥३-३॥",
+              "transliteration": "śrībhagavān uvāca\nloke 'smin dvividhā niṣṭhā purā proktā mayānagha\njñānayogena sāṅkhyānāṃ karmayogena yoginām"
+            },
+            "en": {
+              "text": "The Blessed Lord said: O sinless one, in this world there is a twofold path, as I said before: the path of knowledge for the contemplative and the path of action for the active.",
+              "transliteration": null
+            }
+          }
+        },
+        "4": {
+          "number": 4,
+          "location": {
+            "chapter": 3,
+            "verse": 4
+          },
+          "languages": {
+            "sa": {
+              "text": "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते।\nन च संन्यसनादेव सिद्धिं समधिगच्छति॥३-४॥",
+              "transliteration": "na karmaṇām anārambhān naiṣkarmyaṃ puruṣo 'śnute\nna ca saṃnyasanād eva siddhiṃ samadhigacchati"
+            },
+            "en": {
+              "text": "One does not attain freedom from action by abstaining from action, nor does one attain perfection by mere renunciation.",
+              "transliteration": null
+            }
+          }
+        },
+        "5": {
+          "number": 5,
+          "location": {
+            "chapter": 3,
+            "verse": 5
+          },
+          "languages": {
+            "sa": {
+              "text": "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत्।\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः॥३-५॥",
+              "transliteration": "na hi kaścit kṣaṇam api jātu tiṣṭhaty akarmakṛt\nkāryate hy avaśaḥ karma sarvaḥ prakṛtijair guṇaiḥ"
+            },
+            "en": {
+              "text": "Indeed, no one can remain without action even for a moment; everyone is compelled to act by the qualities born of material nature.",
+              "transliteration": null
+            }
+          }
+        },
+        "6": {
+          "number": 6,
+          "location": {
+            "chapter": 3,
+            "verse": 6
+          },
+          "languages": {
+            "sa": {
+              "text": "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन्।\nइन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते॥३-६॥",
+              "transliteration": "karmendriyāṇi saṃyamya ya āste manasā smaran\nindriyārthān vimūḍhātmā mithyācāraḥ sa ucyate"
+            },
+            "en": {
+              "text": "One who restrains the organs of action but continues to dwell in the mind on sense objects is said to be a hypocrite and deluded.",
+              "transliteration": null
+            }
+          }
+        },
+        "7": {
+          "number": 7,
+          "location": {
+            "chapter": 3,
+            "verse": 7
+          },
+          "languages": {
+            "sa": {
+              "text": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन।\nकर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते॥३-७॥",
+              "transliteration": "yas tv indriyāṇi manasā niyamyārabhate 'rjuna\nkarmendriyaiḥ karmayogam asaktaḥ sa viśiṣyate"
+            },
+            "en": {
+              "text": "But one who, controlling the senses by the mind, engages the organs of action in karma yoga without attachment, excels, O Arjuna.",
+              "transliteration": null
+            }
+          }
+        },
+        "8": {
+          "number": 8,
+          "location": {
+            "chapter": 3,
+            "verse": 8
+          },
+          "languages": {
+            "sa": {
+              "text": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः।\nशरीरयात्रापि च ते न प्रसिध्येदकर्मणः॥३-८॥",
+              "transliteration": "niyataṃ kuru karma tvaṃ karma jyāyo hy akarmaṇaḥ\nśarīrayātrāpi ca te na prasidhyed akarmaṇaḥ"
+            },
+            "en": {
+              "text": "Perform your prescribed duties, for action is superior to inaction. Even the maintenance of your body would not be possible by inaction.",
+              "transliteration": null
+            }
+          }
+        },
+        "9": {
+          "number": 9,
+          "location": {
+            "chapter": 3,
+            "verse": 9
+          },
+          "languages": {
+            "sa": {
+              "text": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः।\nतदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर॥३-९॥",
+              "transliteration": "yajñārthāt karmaṇo 'nyatra loko 'yaṃ karmabandhanaḥ\ntadarthaṃ karma kaunteya muktasaṅgaḥ samācara"
+            },
+            "en": {
+              "text": "The world is bound by actions other than those performed for the sake of sacrifice. Therefore, O son of Kunti, perform action for that purpose, free from attachment.",
+              "transliteration": null
+            }
+          }
+        },
+        "10": {
+          "number": 10,
+          "location": {
+            "chapter": 3,
+            "verse": 10
+          },
+          "languages": {
+            "sa": {
+              "text": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः।\nअनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक्॥३-१०॥",
+              "transliteration": "sahayajñāḥ prajāḥ sṛṣṭvā purovāca prajāpatiḥ\nanena prasaviṣyadhvam eṣa vo 'stv iṣṭakāmadhuk"
+            },
+            "en": {
+              "text": "In the beginning, the Lord of creation, having created beings along with sacrifices, said: 'By this you shall prosper; let this be the milch cow of your desires.'",
+              "transliteration": null
+            }
+          }
+        },
+        "11": {
+          "number": 11,
+          "location": {
+            "chapter": 3,
+            "verse": 11
+          },
+          "languages": {
+            "sa": {
+              "text": "देवान्भावयतानेन ते देवा भावयन्तु वः।\nपरस्परं भावयन्तः श्रेयः परमवाप्स्यथ॥३-११॥",
+              "transliteration": "devān bhāvayatānena te devā bhāvayantu vaḥ\nparasparaṃ bhāvayantaḥ śreyaḥ param avāpsyatha"
+            },
+            "en": {
+              "text": "Nourish the gods with this, and may the gods nourish you. Thus nourishing one another, you shall attain the highest good.",
+              "transliteration": null
+            }
+          }
+        },
+        "12": {
+          "number": 12,
+          "location": {
+            "chapter": 3,
+            "verse": 12
+          },
+          "languages": {
+            "sa": {
+              "text": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः।\nतैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः॥३-१२॥",
+              "transliteration": "iṣṭān bhogān hi vo devā dāsyante yajñabhāvitāḥ\ntair dattān apradāyaibhyo yo bhuṅkte stena eva saḥ"
+            },
+            "en": {
+              "text": "The gods, nourished by sacrifice, will give you the desired enjoyments. One who enjoys these gifts without offering to them is indeed a thief.",
+              "transliteration": null
+            }
+          }
+        },
+        "13": {
+          "number": 13,
+          "location": {
+            "chapter": 3,
+            "verse": 13
+          },
+          "languages": {
+            "sa": {
+              "text": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः।\nभुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात्॥३-१३॥",
+              "transliteration": "yajñaśiṣṭāśinaḥ santo mucyante sarvakilbiṣaiḥ\nbhuñjate te tv aghaṃ pāpā ye pacanty ātmakāraṇāt"
+            },
+            "en": {
+              "text": "The righteous who eat the remnants of sacrifice are freed from all sins, but the sinful who cook only for themselves eat sin.",
+              "transliteration": null
+            }
+          }
+        },
+        "14": {
+          "number": 14,
+          "location": {
+            "chapter": 3,
+            "verse": 14
+          },
+          "languages": {
+            "sa": {
+              "text": "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः।\nयज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः॥३-१४॥",
+              "transliteration": "annād bhavanti bhūtāni parjanyād annasambhavaḥ\nyajñād bhavati parjanyo yajñaḥ karmasamudbhavaḥ"
+            },
+            "en": {
+              "text": "From food come forth beings; from rain food is produced; from sacrifice arises rain; and sacrifice is born of action.",
+              "transliteration": null
+            }
+          }
+        },
+        "15": {
+          "number": 15,
+          "location": {
+            "chapter": 3,
+            "verse": 15
+          },
+          "languages": {
+            "sa": {
+              "text": "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम्।\nतस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम्॥३-१५॥",
+              "transliteration": "karma brahmodbhavaṃ viddhi brahmākṣarasamudbhavam\ntasmāt sarvagataṃ brahma nityaṃ yajñe pratiṣṭhitam"
+            },
+            "en": {
+              "text": "Know that action arises from Brahman, and Brahman arises from the Imperishable. Therefore, the all-pervading Brahman is eternally established in sacrifice.",
+              "transliteration": null
+            }
+          }
+        },
+        "16": {
+          "number": 16,
+          "location": {
+            "chapter": 3,
+            "verse": 16
+          },
+          "languages": {
+            "sa": {
+              "text": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः।\nअघायुरिन्द्रियारामो मोघं पार्थ स जीवति॥३-१६॥",
+              "transliteration": "evaṃ pravartitaṃ cakraṃ nānuvartayatīha yaḥ\naghāyur indriyārāmo moghaṃ pārtha sa jīvati"
+            },
+            "en": {
+              "text": "One who does not follow the wheel thus set in motion is sinful, indulges in the senses, and lives in vain, O Partha.",
+              "transliteration": null
+            }
+          }
+        },
+        "17": {
+          "number": 17,
+          "location": {
+            "chapter": 3,
+            "verse": 17
+          },
+          "languages": {
+            "sa": {
+              "text": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः।\nआत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते॥३-१७॥",
+              "transliteration": "yas tv ātmaratir eva syād ātmatṛptaś ca mānavaḥ\nātmany eva ca santuṣṭas tasya kāryaṃ na vidyate"
+            },
+            "en": {
+              "text": "But for one who rejoices only in the self, is satisfied with the self, and is content in the self alone, there is no duty to perform.",
+              "transliteration": null
+            }
+          }
+        },
+        "18": {
+          "number": 18,
+          "location": {
+            "chapter": 3,
+            "verse": 18
+          },
+          "languages": {
+            "sa": {
+              "text": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन।\nन चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः॥३-१८॥",
+              "transliteration": "naiva tasya kṛtenārtho nākṛteneha kaścana\nna cāsya sarvabhūteṣu kaścid arthavyapāśrayaḥ"
+            },
+            "en": {
+              "text": "Such a person has no purpose to fulfill by action or inaction, and does not depend on any being for any object.",
+              "transliteration": null
+            }
+          }
+        },
+        "19": {
+          "number": 19,
+          "location": {
+            "chapter": 3,
+            "verse": 19
+          },
+          "languages": {
+            "sa": {
+              "text": "तस्मादसक्तः सततं कार्यं कर्म समाचर।\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः॥३-१९॥",
+              "transliteration": "tasmād asaktaḥ satataṃ kāryaṃ karma samācara\nasakto hy ācaran karma param āpnoti pūruṣaḥ"
+            },
+            "en": {
+              "text": "Therefore, always perform your duty unattached, for by performing action without attachment, a person attains the Supreme.",
+              "transliteration": null
+            }
+          }
+        },
+        "20": {
+          "number": 20,
+          "location": {
+            "chapter": 3,
+            "verse": 20
+          },
+          "languages": {
+            "sa": {
+              "text": "कर्मणैव हि संसिद्धिमास्थिता जनकादयः।\nलोकसंग्रहमेवापि संपश्यन्कर्तुमर्हसि॥३-२०॥",
+              "transliteration": "karmaṇaiva hi saṃsiddhim āsthitā janakādayaḥ\nlokasaṅgraham evāpi sampaśyan kartum arhasi"
+            },
+            "en": {
+              "text": "Indeed, by action alone, Janaka and others attained perfection. You should also perform action with a view to the welfare of the world.",
+              "transliteration": null
+            }
+          }
+        },
+        "21": {
+          "number": 21,
+          "location": {
+            "chapter": 3,
+            "verse": 21
+          },
+          "languages": {
+            "sa": {
+              "text": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः।\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते॥३-२१॥",
+              "transliteration": "yad yad ācarati śreṣṭhas tat tad evetaro janaḥ\nsa yat pramāṇaṃ kurute lokas tad anuvartate"
+            },
+            "en": {
+              "text": "Whatever a great person does, others follow. Whatever standard they set, the world follows.",
+              "transliteration": null
+            }
+          }
+        },
+        "22": {
+          "number": 22,
+          "location": {
+            "chapter": 3,
+            "verse": 22
+          },
+          "languages": {
+            "sa": {
+              "text": "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन।\nनानवाप्तमवाप्तव्यं वर्त एव च कर्मणि॥३-२२॥",
+              "transliteration": "na me pārthāsti kartavyaṃ triṣu lokeṣu kiñcana\nnānavāptam avāptavyaṃ varta eva ca karmaṇi"
+            },
+            "en": {
+              "text": "O Partha, there is nothing in the three worlds that I need to do, nor is there anything unattained that I need to attain; yet I engage in action.",
+              "transliteration": null
+            }
+          }
+        },
+        "23": {
+          "number": 23,
+          "location": {
+            "chapter": 3,
+            "verse": 23
+          },
+          "languages": {
+            "sa": {
+              "text": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः।\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः॥३-२३॥",
+              "transliteration": "yadi hy ahaṃ na varteyaṃ jātu karmaṇy atandritaḥ\nmama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ"
+            },
+            "en": {
+              "text": "If I did not engage in action unwearied, O Partha, people would follow My path in every way.",
+              "transliteration": null
+            }
+          }
+        },
+        "24": {
+          "number": 24,
+          "location": {
+            "chapter": 3,
+            "verse": 24
+          },
+          "languages": {
+            "sa": {
+              "text": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम्।\nसङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः॥३-२४॥",
+              "transliteration": "utsīdeyur ime lokā na kuryāṃ karma ced aham\nsaṅkarasya ca kartā syām upahanyām imāḥ prajāḥ"
+            },
+            "en": {
+              "text": "These worlds would perish if I did not perform action; I would be the cause of confusion and destruction of all these beings.",
+              "transliteration": null
+            }
+          }
+        },
+        "25": {
+          "number": 25,
+          "location": {
+            "chapter": 3,
+            "verse": 25
+          },
+          "languages": {
+            "sa": {
+              "text": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत।\nकुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम्॥३-२५॥",
+              "transliteration": "saktāḥ karmaṇy aviddvāṃso yathā kurvanti bhārata\nkuryād viddvāṃs tathāsaktaś cikīrṣur lokasaṅgraham"
+            },
+            "en": {
+              "text": "As the ignorant act with attachment to their work, O descendant of Bharata, so should the wise act without attachment, for the welfare of the world.",
+              "transliteration": null
+            }
+          }
+        },
+        "26": {
+          "number": 26,
+          "location": {
+            "chapter": 3,
+            "verse": 26
+          },
+          "languages": {
+            "sa": {
+              "text": "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम्।\nजोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन्॥३-२६॥",
+              "transliteration": "na buddhibhedaṃ janayed ajñānāṃ karmasaṅginām\noṣayet sarvakarmāṇi viddvān yuktaḥ samācaran"
+            },
+            "en": {
+              "text": "Let not the wise unsettle the minds of the ignorant who are attached to action; they should be encouraged to perform all actions in a spirit of devotion.",
+              "transliteration": null
+            }
+          }
+        },
+        "27": {
+          "number": 27,
+          "location": {
+            "chapter": 3,
+            "verse": 27
+          },
+          "languages": {
+            "sa": {
+              "text": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः।\nअहङ्कारविमूढात्मा कर्ताऽहमिति मन्यते॥३-२७॥",
+              "transliteration": "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ\nahaṅkāravimūḍhātmā kartāham iti manyate"
+            },
+            "en": {
+              "text": "All actions are performed by the modes of material nature. One whose mind is deluded by ego thinks, 'I am the doer.'",
+              "transliteration": null
+            }
+          }
+        },
+        "28": {
+          "number": 28,
+          "location": {
+            "chapter": 3,
+            "verse": 28
+          },
+          "languages": {
+            "sa": {
+              "text": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः।\nगुणा गुणेषु वर्तन्त इति मत्वा न सज्जते॥३-२८॥",
+              "transliteration": "tattvavittu mahābāho guṇakarmavibhāgayoḥ\nguṇā guṇeṣu vartanta iti matvā na sajjate"
+            },
+            "en": {
+              "text": "But one who knows the truth, O mighty-armed, about the divisions of the modes and their actions, understanding that the modes act upon the modes, does not become attached.",
+              "transliteration": null
+            }
+          }
+        },
+        "29": {
+          "number": 29,
+          "location": {
+            "chapter": 3,
+            "verse": 29
+          },
+          "languages": {
+            "sa": {
+              "text": "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु।\nतानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत्॥३-२९॥",
+              "transliteration": "prakṛter guṇasammūḍhāḥ sajjante guṇakarmasu\ntān akṛtsnavido mandān kṛtsnavin na vicālayet"
+            },
+            "en": {
+              "text": "Those deluded by the modes of material nature become attached to the functions of the modes. But the knower of the All should not unsettle the ignorant who know only a part.",
+              "transliteration": null
+            }
+          }
+        },
+        "30": {
+          "number": 30,
+          "location": {
+            "chapter": 3,
+            "verse": 30
+          },
+          "languages": {
+            "sa": {
+              "text": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा।\nनिराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः॥३-३०॥",
+              "transliteration": "mayi sarvāṇi karmāṇi saṃnyasyādhyātmacetasā\nnirāśīr nirmamo bhūtvā yudhyasva vigatajvaraḥ"
+            },
+            "en": {
+              "text": "Surrendering all actions to Me, with your consciousness fixed on the Self, being free from desire and egoism, and free from fever, fight.",
+              "transliteration": null
+            }
+          }
+        },
+        "31": {
+          "number": 31,
+          "location": {
+            "chapter": 3,
+            "verse": 31
+          },
+          "languages": {
+            "sa": {
+              "text": "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः।\nश्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः॥३-३१॥",
+              "transliteration": "ye me matam idaṃ nityam anutiṣṭhanti mānavāḥ\nśraddhāvanto 'nasūyanto mucyante te 'pi karmabhiḥ"
+            },
+            "en": {
+              "text": "Those who always practice this teaching of Mine with faith and without caviling are freed from the bondage of actions.",
+              "transliteration": null
+            }
+          }
+        },
+        "32": {
+          "number": 32,
+          "location": {
+            "chapter": 3,
+            "verse": 32
+          },
+          "languages": {
+            "sa": {
+              "text": "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम्।\nसर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः॥३-३२॥",
+              "transliteration": "ye tv etad abhyasūyanto nānutiṣṭhanti me matam\nsarvajñānavimūḍhāṃs tān viddhi naṣṭān acetasaḥ"
+            },
+            "en": {
+              "text": "But those who, out of envy, disregard this teaching and do not practice it, are deluded in all knowledge and are ruined.",
+              "transliteration": null
+            }
+          }
+        },
+        "33": {
+          "number": 33,
+          "location": {
+            "chapter": 3,
+            "verse": 33
+          },
+          "languages": {
+            "sa": {
+              "text": "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि।\nप्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति॥३-३३॥",
+              "transliteration": "sadṛśaṃ ceṣṭate svasyāḥ prakṛter jñānavān api\nprakṛtiṃ yānti bhūtāni nigrahaḥ kiṃ kariṣyati"
+            },
+            "en": {
+              "text": "Even a wise person acts according to their own nature. Beings follow their nature. What can repression accomplish?",
+              "transliteration": null
+            }
+          }
+        },
+        "34": {
+          "number": 34,
+          "location": {
+            "chapter": 3,
+            "verse": 34
+          },
+          "languages": {
+            "sa": {
+              "text": "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ।\nतयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ॥३-३४॥",
+              "transliteration": "indriyasyendriyasyārthe rāgadveṣau vyavasthitau\ntayor na vaśam āgacchettau hy asya paripanthinau"
+            },
+            "en": {
+              "text": "Attachment and aversion for sense objects abide in the senses; let none come under their sway, for they are two foes blocking the path.",
+              "transliteration": null
+            }
+          }
+        },
+        "35": {
+          "number": 35,
+          "location": {
+            "chapter": 3,
+            "verse": 35
+          },
+          "languages": {
+            "sa": {
+              "text": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः॥३-३५॥",
+              "transliteration": "śreyān svadharmo viguṇaḥ paradharmāt svanuṣṭhitāt\nsvadharme nidhanaṃ śreyaḥ paradharmo bhayāvahaḥ"
+            },
+            "en": {
+              "text": "Better is one's own duty, though imperfect, than the duty of another well performed. Better is death in one's own duty; the duty of another is fraught with fear.",
+              "transliteration": null
+            }
+          }
+        },
+        "36": {
+          "number": 36,
+          "location": {
+            "chapter": 3,
+            "verse": 36
+          },
+          "languages": {
+            "sa": {
+              "text": "अर्जुन उवाच\nअथ केन प्रयुक्तोऽयं पापं चरति पूरुषः।\nअनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः॥३-३६॥",
+              "transliteration": "arjuna uvāca\natha kena prayukto 'yaṃ pāpaṃ carati pūruṣaḥ\nanicchann api vārṣṇeya balād iva niyojitaḥ"
+            },
+            "en": {
+              "text": "Arjuna said: Then by what is a person impelled to commit sin, even unwillingly, as if forced by some power, O Varshneya?",
+              "transliteration": null
+            }
+          }
+        },
+        "37": {
+          "number": 37,
+          "location": {
+            "chapter": 3,
+            "verse": 37
+          },
+          "languages": {
+            "sa": {
+              "text": "श्रीभगवानुवाच\nकाम एष क्रोध एष रजोगुणसमुद्भवः।\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम्॥३-३७॥",
+              "transliteration": "śrībhagavān uvāca\nkāma eṣa krodha eṣa rajoguṇasamudbhavaḥ\nmahāśano mahāpāpmā viddhy enam iha vairiṇam"
+            },
+            "en": {
+              "text": "The Blessed Lord said: It is desire, it is anger, born of the mode of passion, all-devouring and most sinful. Know this as the enemy here.",
+              "transliteration": null
+            }
+          }
+        },
+        "38": {
+          "number": 38,
+          "location": {
+            "chapter": 3,
+            "verse": 38
+          },
+          "languages": {
+            "sa": {
+              "text": "धूमेनाव्रियते वह्निर्यथादर्शो मलेन च।\nयथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम्॥३-३८॥",
+              "transliteration": "dhūmenāvriyate vahnir yathādarśo malena ca\nyatholbenāvṛto garbhas tathā tenedam āvṛtam"
+            },
+            "en": {
+              "text": "As fire is covered by smoke, as a mirror by dust, and as an embryo is enveloped by the womb, so is knowledge covered by this.",
+              "transliteration": null
+            }
+          }
+        },
+        "39": {
+          "number": 39,
+          "location": {
+            "chapter": 3,
+            "verse": 39
+          },
+          "languages": {
+            "sa": {
+              "text": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा।\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च॥३-३९॥",
+              "transliteration": "āvṛtaṃ jñānam etena jñānino nityavairiṇā\nkāmarūpeṇa kaunteya duṣpūreṇānalena ca"
+            },
+            "en": {
+              "text": "O son of Kunti, knowledge is covered by this constant enemy of the wise in the form of desire, which is insatiable like fire.",
+              "transliteration": null
+            }
+          }
+        },
+        "40": {
+          "number": 40,
+          "location": {
+            "chapter": 3,
+            "verse": 40
+          },
+          "languages": {
+            "sa": {
+              "text": "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते।\nएतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम्॥३-४०॥",
+              "transliteration": "indriyāṇi mano buddhir asyādhiṣṭhānam ucyate\ntair vimohayatyeṣa jñānam āvṛtya dehinam"
+            },
+            "en": {
+              "text": "The senses, mind, and intellect are said to be its seat. Through these, it deludes the embodied being by veiling knowledge.",
+              "transliteration": null
+            }
+          }
+        },
+        "41": {
+          "number": 41,
+          "location": {
+            "chapter": 3,
+            "verse": 41
+          },
+          "languages": {
+            "sa": {
+              "text": "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ।\nपाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम्॥३-४१॥",
+              "transliteration": "tasmāt tvam indriyāṇy ādau niyamya bharatarṣabha\npāpmānaṃ prajahi hy enaṃ jñānavijñānanāśanam"
+            },
+            "en": {
+              "text": "Therefore, O best of the Bharatas, first control the senses and slay this sinful destroyer of knowledge and discrimination.",
+              "transliteration": null
+            }
+          }
+        },
+        "42": {
+          "number": 42,
+          "location": {
+            "chapter": 3,
+            "verse": 42
+          },
+          "languages": {
+            "sa": {
+              "text": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः।\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः॥३-४२॥",
+              "transliteration": "indriyāṇi parāṇy āhur indriyebhyaḥ paraṃ manaḥ\nmanasas tu parā buddhir yo buddheḥ paratas tu saḥ"
+            },
+            "en": {
+              "text": "The senses are said to be superior to the body; the mind is superior to the senses; the intellect is superior to the mind; and that which is superior to the intellect is the Self.",
+              "transliteration": null
+            }
+          }
+        },
+        "43": {
+          "number": 43,
+          "location": {
+            "chapter": 3,
+            "verse": 43
+          },
+          "languages": {
+            "sa": {
+              "text": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना।\nजहि शत्रुं महाबाहो कामरूपं दुरासदम्॥३-४३॥",
+              "transliteration": "evaṃ buddheḥ paraṃ buddhvā saṃstabhyātmānam ātmanā\njahi śatruṃ mahābāho kāmarūpaṃ durāsadam"
+            },
+            "en": {
+              "text": "Thus, knowing That which is beyond the intellect, and subduing the self by the Self, slay the enemy in the form of desire, O mighty-armed, which is difficult to overcome.",
               "transliteration": null
             }
           }
