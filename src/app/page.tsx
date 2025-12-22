@@ -165,21 +165,21 @@ const steps = [
  */
 const testimonials = [
   {
-    text: "A breathtaking journey through ancient wisdom. The UI makes reading a joy.",
-    author: "Dr. Priya Sharma",
-    role: "Sanskrit Scholar",
+    text: "ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मव नापरः ।\nअनेन वेद्यं सच्छास्त्रमिति वेदान्तडिण्डिमः ॥",
+    author: "Adi Shankaracharya",
+    role: "Advaita Vedanta Teacher",
     rating: 5
   },
   {
-    text: "Finally, a modern way to access these timeless texts. The search functionality is incredible.",
-    author: "Arjun Patel",
-    role: "Graduate Student",
+    text: "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् ।\n तस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चय: ॥",
+    author: "Shri Krishna",
+    role: "Lord",
     rating: 5
   },
   {
-    text: "The glassmorphic design perfectly complements the sacred content. A masterpiece.",
-    author: "Dr. Vikram Desai",
-    role: "Digital Humanities Researcher",
+    text: "जम्पुलऩटक्कियोर् आट्रलो मिकप् पेरितु विण्पेरुलकिऩ् वेन्तऩाम् इन्दिरऩ् ताऩुम् अऩ्ऩार् चापत्तिऱ्कु आळायिऩाऩ् ॥",
+    author: "Rishi Thiruvalluvar",
+    role: "Tamil Religious Poet",
     rating: 5
   }
 ];
@@ -409,7 +409,7 @@ export default function Home() {
                 <div className="mb-4">
                   <span className="text-2xl text-veda-accent/50">"</span>
                 </div>
-                <p className="text-sm text-gray-300 mb-4 leading-relaxed italic">
+                <p className="text-sm whitespace-pre-line text-gray-300 mb-4 leading-relaxed italic">
                   {testimonial.text}
                 </p>
                 <div className="text-right">
