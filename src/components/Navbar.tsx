@@ -108,7 +108,7 @@ const Navbar = () => {
                         ====================================================================
                         Contains the application branding and home link with actual logos
                     */}
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-2 sm:space-x-4">
                         <Link
                             href="/"
                             className="flex items-center space-x-2 group focus:outline-none focus:ring-2 focus:ring-veda-accent rounded-md"
@@ -120,11 +120,11 @@ const Navbar = () => {
                                     alt="Vaidika Vangamaya Library Logo"
                                     width={80}
                                     height={80}
-                                    className="object-contain cursor-pointer"
+                                    className="object-contain cursor-pointer w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20"
                                     priority
                                 />
                             </Link>
-                            <span className="text-5xl hidden md:block font-semibold text-veda-primary group-hover:text-veda-accent transition-colors">
+                            <span className="text-xl sm:text-2xl md:text-3xl lg:text-5xl hidden sm:block font-semibold text-veda-primary group-hover:text-veda-accent transition-colors">
                                 Vaidika Vangamaya
                             </span>
                         </Link>

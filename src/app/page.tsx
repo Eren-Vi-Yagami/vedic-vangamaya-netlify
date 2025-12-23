@@ -219,7 +219,7 @@ export default function Home() {
       </div>
 
       {/* Content wrapper with higher z-index */}
-      <div className="relative bg-black z-10 w-320 flex flex-col items-center mt-[40vh]">
+     <div className="relative bg-black z-10 w-screen px-4 sm:px-6 lg:px-8 flex flex-col items-center mt-[30vh] sm:mt-[35vh] md:mt-[40vh]">
 
         {/* 
           ====================================================================
@@ -228,7 +228,7 @@ export default function Home() {
           Creates initial viewport height so background image is fully visible
           Content starts scrolling after this section
         */}
-        <section className="h-10 -mt-5 w-full mx-auto flex items-center justify-center bg-black/10 backdrop-blur-sm ">
+       <section className="h-10 -mt-5 w-screen flex items-center justify-center bg-black/10 backdrop-blur-sm">
           {/* Empty section that creates the parallax effect */}
         </section>
 
@@ -247,11 +247,11 @@ export default function Home() {
         ====================================================================
         The main value proposition with compelling headline and CTAs
       */}
-        <section className="w-full max-w-4xl text-center mb-16">
-          <h2 className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-400 mb-4">
+        <section className="w-full max-w-4xl text-center mb-8 sm:mb-12 md:mb-16 px-2">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-400 mb-3 sm:mb-4">
             Discover the Wisdom of Ages
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-6 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-4 sm:mb-6 leading-relaxed px-2">
             Explore thousands of Vaidika scriptures, epics, and commentaries in a premium,
             glass‑morphic interface designed for modern readers.
           </p>
@@ -272,8 +272,8 @@ export default function Home() {
         Endless horizontal scrolling showcase of sacred texts
         Creates mesmerizing, temple-library-like experience
       */}
-        <section className="w-full mb-16">
-          <h3 className="text-2xl font-semibold text-center mb-8 text-veda-primary">
+        <section className="w-full mb-8 sm:mb-12 md:mb-16">
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-center mb-4 sm:mb-6 md:mb-8 text-veda-primary">
             Sacred Texts Collection
           </h3>
           <BookCarousel
@@ -289,8 +289,8 @@ export default function Home() {
         ====================================================================
         Builds credibility with impressive collection metrics
       */}
-        <section className="w-full max-w-5xl mb-12">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10">
+        <section className="w-full max-w-5xl mb-8 sm:mb-10 md:mb-12 px-2">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 bg-white/5 backdrop-blur-lg rounded-xl p-4 sm:p-6 border border-white/10">
             {stats.map((stat, index) => (
               <StatCard
                 key={index}
@@ -307,12 +307,12 @@ export default function Home() {
         ====================================================================
         Prominent search functionality for immediate content discovery
       */}
-        <section className="w-full max-w-3xl mb-12">
+        <section className="w-full max-w-3xl mb-8 sm:mb-10 md:mb-12 px-2">
           <div className="relative group">
             <input
               type="text"
               placeholder="Search scriptures, authors, topics..."
-              className="w-full rounded-full bg-white/10 backdrop-blur-md border border-white/20 px-6 py-4 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-300 group-hover:border-white/30"
+              className="w-full rounded-full bg-white/10 backdrop-blur-md border border-white/20 px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-300 group-hover:border-white/30"
               aria-label="Search scriptures, authors, and topics"
             />
             <span className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus:text-primary-400 transition-colors">
@@ -370,11 +370,11 @@ export default function Home() {
         ====================================================================
         Showcases popular texts to encourage exploration
       */}
-        <section className="w-full max-w-6xl mb-12">
-          <h3 className={`text-2xl mb-6 text-center text-veda-primary ${booksFont.className}`}>
+        <section className="w-full max-w-6xl mb-8 sm:mb-10 md:mb-12 px-2">
+          <h3 className={`text-lg sm:text-xl md:text-2xl mb-4 sm:mb-6 text-center text-veda-primary ${booksFont.className}`}>
             Upcoming Books
           </h3>
-          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ${booksFont.className}`}>
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 ${booksFont.className}`}>
             {featuredBooks.map((book) => (
               <BookCard className={booksFont.className}
                 key={book.id}
@@ -396,15 +396,15 @@ export default function Home() {
         ====================================================================
         Social proof to build trust and credibility
       */}
-        <section className="w-full max-w-5xl mb-12">
-          <h3 className="text-2xl font-semibold mb-6 text-center text-veda-primary">
+        <section className="w-full max-w-5xl mb-8 sm:mb-10 md:mb-12 px-2">
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-4 sm:mb-6 text-center text-veda-primary">
             What Readers Say
           </h3>
-          <div className="flex overflow-x-auto space-x-4 py-4 scrollbar-hide">
+          <div className="flex overflow-x-auto space-x-3 sm:space-x-4 py-3 sm:py-4 scrollbar-hide -mx-2 px-2">
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="min-w-[300px] bg-white/5 backdrop-blur-lg rounded-xl p-6 flex flex-col justify-between border border-white/10 hover:border-veda-accent/30 transition-all duration-300"
+                className="min-w-[260px] sm:min-w-[300px] bg-white/5 backdrop-blur-lg rounded-xl p-4 sm:p-6 flex flex-col justify-between border border-white/10 hover:border-veda-accent/30 transition-all duration-300"
               >
                 <div className="mb-4">
                   <span className="text-2xl text-veda-accent/50">"</span>
@@ -431,8 +431,8 @@ export default function Home() {
         ====================================================================
         Copyright and legal information
       */}
-        <footer className="w-full max-w-6xl mt-8 text-center text-sm text-gray-500 py-8 border-t border-white/10">
-          <div className="space-y-2">
+        <footer className="w-full max-w-6xl mt-6 sm:mt-8 text-center text-xs sm:text-sm text-gray-500 py-6 sm:py-8 border-t border-white/10 px-4">
+          <div className="space-y-1 sm:space-y-2">
             <p>
               © {new Date().getFullYear()} Vaidika Vangamaya. All rights reserved.
             </p>

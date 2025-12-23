@@ -31,7 +31,40 @@
               "text": "Dhritarashtra said: O Sanjaya, what did my sons and the sons of Pandu do when they had assembled together on the holy plain of Kurukshetra, eager for battle?",
               "transliteration": null
             }
-          }
+          },
+          "commentaries": [
+            {
+              "author": {
+                "id": "shankara",
+                "name": "Adi Shankara",
+                "tradition": "Advaita"
+              },
+              "languages": {
+                "en": {
+                  "text": "Shankara commentary text..."
+                },
+                "sa": {
+                  "text": "शङ्करः टीका..."
+                }
+              },
+              "meta": {
+                "date": "2025-12-23",
+                "source": "Gita Bhashya"
+              }
+            },
+            {
+              "author": {
+                "id": "ramanuja",
+                "name": "Ramanuja",
+                "tradition": "Vishishtadvaita"
+              },
+              "languages": {
+                "en": {
+                  "text": "Ramanuja commentary..."
+                }
+              }
+            }
+          ]
         },
         "2": {
           "number": 2,

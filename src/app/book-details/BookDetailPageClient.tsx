@@ -1,43 +1,97 @@
+/**
+ * BookDetailPageClient Component (Legacy/Alternate Version)
+ * 
+ * ⚠️ NOTE: This file appears to be an older or alternate version of the
+ * BookDetailPageClient component. The primary, actively-used version
+ * is located at: src/app/readingpart.tsx
+ * 
+ * Key Differences from readingpart.tsx:
+ * - Does NOT include showCommentaryButton functionality
+ * - Has slightly different responsive breakpoints (md vs lg)
+ * - Uses fixed positioning styles instead of sticky
+ * - Has a simpler props interface without optional fields
+ * 
+ * Consider consolidating with the main version to reduce code duplication.
+ * 
+ * ============================================================================
+ * COMPONENT PURPOSE
+ * ============================================================================
+ * This is a client-side component for displaying book details with:
+ * - Cover image in a sidebar
+ * - Book metadata display
+ * - Collapsible chapter accordions with verse content
+ * 
+ * @module book-details/BookDetailPageClient
+ * @deprecated Consider using src/app/readingpart.tsx instead
+ */
+
 'use client';
 
 import { useState } from 'react';
 import Image from 'next/image';
 import { Merriweather } from 'next/font/google';
 
+/**
+ * Font Configuration: Merriweather
+ * 
+ * Scholarly serif font suitable for religious/philosophical texts.
+ * Provides excellent readability for extended reading sessions.
+ */
 const gitaFont = Merriweather({
   weight: ['400', '700'],
   subsets: ['latin'],
 });
 
+/**
+ * BookMetadata Type Definition
+ * 
+ * Represents the display information for a book.
+ * Optional fields allow for graceful degradation when data is incomplete.
+ */
 export type BookMetadata = {
   title: string;
-  author?: string;
-  coverUrl?: string;
-  description?: string;
+  author?: string;      // Optional: Some texts have unknown/traditional attribution
+  coverUrl?: string;    // Optional: Falls back to placeholder image
+  description?: string; // Optional: Shows "No description available" if missing
   language?: string;
   status?: string;
   category?: string;
 };
 
-// Define the type for a single verse
+/**
+ * Verse Type Definition
+ * @see Type also exported from src/app/readingpart.tsx
+ */
 export type Verse = {
   id: number;
   text: string;
   transliteration: string;
 };
 
-// Define the type for a single chapter
+/**
+ * Chapter Type Definition
+ * @see Type also exported from src/app/readingpart.tsx
+ */
 export type Chapter = {
   title: string;
   content: string;
   verses: Verse[];
 };
 
+/**
+ * Component Props Type
+ */
 type Props = {
   chapters: Chapter[];
   bookMetadata: BookMetadata;
 };
 
+/**
+ * ChapterAccordion - Collapsible Chapter Display
+ * 
+ * Displays a chapter title that can be clicked to reveal verses.
+ * Uses the accordion pattern for space-efficient content display.
+ */
 const ChapterAccordion = ({ chapter, isOpen, onClick }: { chapter: Chapter, isOpen: boolean, onClick: () => void }) => (
   <div className="border-b border-white/10">
     <button
@@ -73,7 +127,7 @@ export default function BookDetailPageClient({ chapters, bookMetadata }: Props) 
   };
 
   // Fallback for cover URL
-  const coverUrl = bookMetadata.coverUrl || '/images/placeholder_book.png'; 
+  const coverUrl = bookMetadata.coverUrl || '/images/placeholder_book.png';
 
   return (
     <div className="bg-black text-white min-h-screen">
@@ -82,7 +136,7 @@ export default function BookDetailPageClient({ chapters, bookMetadata }: Props) 
         <div className="w-full md:w-1/4 bg-white/5 rounded-xl p-4 md:mt-30 md:ml-10 md:mr-5 sticky top-28 self-start">
           <div className="bg-white/5 border border-white/10 rounded-lg overflow-hidden mb-6">
             <div className="relative aspect-[2/3] w-full">
-               <Image
+              <Image
                 src={coverUrl}
                 alt={`Cover of ${bookMetadata.title}`}
                 fill
@@ -98,8 +152,8 @@ export default function BookDetailPageClient({ chapters, bookMetadata }: Props) 
               <p><strong>Book:</strong> {bookMetadata.title}</p>
               {bookMetadata.author && <p><strong>Author:</strong> {bookMetadata.author}</p>}
               {bookMetadata.language && <p><strong>Language:</strong> {bookMetadata.language}</p>}
-               {bookMetadata.category && <p><strong>Category:</strong> {bookMetadata.category}</p>}
-               {bookMetadata.status && <p><strong>Status:</strong> {bookMetadata.status}</p>}
+              {bookMetadata.category && <p><strong>Category:</strong> {bookMetadata.category}</p>}
+              {bookMetadata.status && <p><strong>Status:</strong> {bookMetadata.status}</p>}
             </div>
           </div>
         </div>
@@ -125,18 +179,18 @@ export default function BookDetailPageClient({ chapters, bookMetadata }: Props) 
 
               {isChapterListOpen && (
                 <div className="text-gray-300 max-h-[60vh] overflow-y-auto">
-                    {chapters.length === 0 ? (
-                        <div className="p-4 text-center text-gray-400">No chapters available.</div>
-                    ) : (
-                        chapters.map((chapter, i) => (
-                            <ChapterAccordion
-                            key={i}
-                            chapter={chapter}
-                            isOpen={openChapterIndex === i}
-                            onClick={() => handleChapterClick(i)}
-                            />
-                        ))
-                    )}
+                  {chapters.length === 0 ? (
+                    <div className="p-4 text-center text-gray-400">No chapters available.</div>
+                  ) : (
+                    chapters.map((chapter, i) => (
+                      <ChapterAccordion
+                        key={i}
+                        chapter={chapter}
+                        isOpen={openChapterIndex === i}
+                        onClick={() => handleChapterClick(i)}
+                      />
+                    ))
+                  )}
                 </div>
               )}
             </div>

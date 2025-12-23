@@ -47,14 +47,14 @@ interface BookCarouselProps {
    * The component will duplicate these for seamless looping
    */
   books: Book[];
-  
+
   /**
    * Animation speed in seconds
    * Controls how fast the books scroll across the screen
    * Default: 30s for contemplative, scholarly feel
    */
   speed?: number;
-  
+
   /**
    * Pause animation on hover
    * Allows users to interact with individual books
@@ -72,44 +72,44 @@ interface BookCarouselProps {
  * @param {BookCarouselProps} props - Component properties
  * @returns {JSX.Element} The rendered carousel
  */
-export default function BookCarousel({ 
-  books, 
-  speed = 30, 
-  pauseOnHover = true 
+export default function BookCarousel({
+  books,
+  speed = 30,
+  pauseOnHover = true
 }: BookCarouselProps) {
   // Create duplicate array for seamless infinite scroll
   const duplicatedBooks = [...books, ...books, ...books];
-  
+
   // Calculate animation duration based on number of books and speed
   const animationDuration = speed;
-  
+
   return (
-    <div className="w-full py-8 overflow-hidden relative">
+    <div className="w-full py-4 sm:py-6 md:py-8 overflow-hidden relative">
       {/* Decorative gradient edges */}
-      <div className="absolute left-0 top-0 w-32 h-full bg-gradient-to-r from-stone-950 to-transparent z-10 pointer-events-none" />
-      <div className="absolute right-0 top-0 w-32 h-full bg-gradient-to-l from-stone-950 to-transparent z-10 pointer-events-none" />
-      
-      <div 
+      <div className="absolute left-0 top-0 w-12 sm:w-20 md:w-32 h-full bg-gradient-to-r from-stone-950 to-transparent z-10 pointer-events-none" />
+      <div className="absolute right-0 top-0 w-12 sm:w-20 md:w-32 h-full bg-gradient-to-l from-stone-950 to-transparent z-10 pointer-events-none" />
+
+      <div
         className={`flex items-center ${pauseOnHover ? 'group' : ''}`}
         style={{
           animation: `scroll ${animationDuration}s linear infinite`,
-          width: `${duplicatedBooks.length * 200}px`, // Approximate width per book
+          width: `${duplicatedBooks.length * 160}px`, // Approximate width per book (adjusted for mobile)
         }}
       >
         {duplicatedBooks.map((book, index) => (
           <div
             key={`${book.id}-${index}`}
-            className="flex-shrink-0 mx-4 transform transition-all duration-300 hover:scale-110 hover:z-20"
+            className="flex-shrink-0 mx-2 sm:mx-3 md:mx-4 transform transition-all duration-300 hover:scale-110 hover:z-20"
             style={{ animationDelay: `${index * 0.1}s` }}
           >
-            <Link 
+            <Link
               href={`/books/${book.slug}`}
               className="block group/book"
               aria-label={`Read ${book.title} by ${book.author}`}
             >
               <div className="relative">
                 {/* Book Cover */}
-                <div className="bg-white/10 backdrop-blur-lg rounded-lg border border-white/20 p-3 shadow-lg hover:shadow-2xl transition-all duration-300 group-hover/book:border-amber-600/50 w-40 h-60 flex flex-col">
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg border border-white/20 p-2 sm:p-3 shadow-lg hover:shadow-2xl transition-all duration-300 group-hover/book:border-amber-600/50 w-28 h-44 sm:w-32 sm:h-48 md:w-40 md:h-60 flex flex-col">
                   <div className="relative mb-2 overflow-hidden rounded-md flex-1">
                     <Image
                       src={book.coverUrl}
@@ -126,17 +126,17 @@ export default function BookCarousel({
                       </div>
                     )}
                   </div>
-                  
+
                   <div className="text-center">
-                    <h4 className="text-sm font-semibold text-white truncate group-hover/book:text-amber-600 transition-colors">
+                    <h4 className="text-xs sm:text-sm font-semibold text-white truncate group-hover/book:text-amber-600 transition-colors">
                       {book.title}
                     </h4>
-                    <p className="text-xs text-gray-300 truncate group-hover/book:text-gray-200 transition-colors">
+                    <p className="text-[10px] sm:text-xs text-gray-300 truncate group-hover/book:text-gray-200 transition-colors">
                       {book.author}
                     </p>
                   </div>
                 </div>
-                
+
                 {/* Hover glow effect */}
                 <div className="absolute inset-0 bg-gradient-to-t from-amber-600/20 to-transparent opacity-0 group-hover/book:opacity-100 transition-opacity duration-300 rounded-lg pointer-events-none" />
               </div>
@@ -144,7 +144,7 @@ export default function BookCarousel({
           </div>
         ))}
       </div>
-      
+
       {/* CSS Animation */}
       <style jsx>{`
         @keyframes scroll {

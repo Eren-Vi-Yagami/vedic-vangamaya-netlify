@@ -19,6 +19,7 @@ import { Inter } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import FloatingEngine from "@/components/FloatingEngine";
 import "./globals.css";
 
 /**
@@ -80,31 +81,26 @@ export default function RootLayout({
   children,
 }: Readonly<RootLayoutProps>) {
   return (
-    <html 
-      lang="en" 
+    <html
+      lang="en"
       className={`${inter.variable} ${playfair.variable}`}
       suppressHydrationWarning // Prevents hydration mismatch warnings
     >
       <body className="bg-background text-foreground antialiased relative">
         {/* Global Navigation - Present on all pages */}
         <Navbar />
-        
+
         {/* Main Content Area - Where pages are rendered */}
         <main className="min-h-screen">
           {children}
         </main>
 
         {/* Floating Engine Logo Element */}
-        <div className="fixed bottom-4 right-4 z-50 flex items-center space-x-2 bg-black/20 backdrop-blur-sm rounded-lg px-3 py-2 border border-white/10">
-          <Image 
-            src={"/images/logo.png"}
-            alt="DSM Engine" 
-            width={50} 
-            height={50} 
-            className="object-contain"
-          />
-          <span className="text-white text-sm font-medium">DSM-Mark: 1 Engine</span>
-        </div>
+
+        {/* Floating Engine Logo Element */}
+        <FloatingEngine />
+
+
       </body>
     </html>
   );

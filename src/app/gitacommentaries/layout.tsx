@@ -1,29 +1,116 @@
+/**
+ * GitaCommentariesLayout - Persistent Navigation Wrapper for Gita Reading
+ * 
+ * This layout component wraps all pages under /gitacommentaries/* and provides:
+ * - Chapter and verse navigation sidebar
+ * - Persistent UI state that survives route changes
+ * - Responsive mobile-first design with collapsible accordions
+ * 
+ * ============================================================================
+ * LAYOUT vs PAGE ARCHITECTURE (CRITICAL CONCEPT)
+ * ============================================================================
+ * In Next.js App Router, LAYOUTS don't unmount when child routes change.
+ * This is intentionally leveraged here for UX benefits:
+ * 
+ * - **State Persistence**: The sidebar's expanded/collapsed state stays
+ *   consistent as users navigate between verses. This prevents the jarring
+ *   experience of UI elements collapsing on every page change.
+ * 
+ * - **Performance**: The navigation buttons (18 chapters × ~50 verses each)
+ *   only render once, not on every verse navigation.
+ * 
+ * - **Scroll Position**: The sidebar maintains its scroll position as users
+ *   navigate, making it easy to continue browsing nearby verses.
+ * 
+ * ============================================================================
+ * RESPONSIVE DESIGN STRATEGY
+ * ============================================================================
+ * **Desktop (lg and above)**:
+ * - Full sidebar always visible on the left
+ * - Chapter and verse grids shown by default
+ * - Sticky positioning keeps navigation accessible while scrolling
+ * 
+ * **Mobile (below lg)**:
+ * - Sidebar collapses into accordion-style dropdowns
+ * - Only current chapter/verse numbers shown when collapsed
+ * - Tap to expand and see full navigation grid
+ * - State persists across navigation (key feature!)
+ * 
+ * ============================================================================
+ * STATE MANAGEMENT
+ * ============================================================================
+ * - `isChapterExpanded`: Mobile-only - controls chapter accordion visibility
+ * - `isVerseExpanded`: Mobile-only - controls verse accordion visibility
+ * 
+ * These states are managed HERE in the layout because:
+ * 1. Layout doesn't remount on navigation → state persists
+ * 2. Child pages don't need to know about sidebar state
+ * 3. Clean separation of concerns (navigation vs content)
+ * 
+ * @module gitacommentaries/layout
+ * @component GitaCommentariesLayout
+ */
+
 'use client';
 import { useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import gitaData from '../test-gita.json';
 
+/**
+ * GitaCommentariesLayout Component
+ * 
+ * The persistent wrapper for all Gita commentary pages. Renders the
+ * chapter/verse navigation sidebar and hosts child pages in the main area.
+ * 
+ * @param {Object} props - Component props
+ * @param {React.ReactNode} props.children - Child page content (verse display)
+ * @returns {JSX.Element} The layout with navigation and content areas
+ */
 export default function GitaCommentariesLayout({ children }: { children: React.ReactNode }) {
+    // ========================================================================
+    // ROUTING HOOKS
+    // ========================================================================
     const params = useParams();
     const router = useRouter();
 
-    // State for navigation (Sync with URL)
+    // ========================================================================
+    // URL-SYNCED NAVIGATION STATE
+    // ========================================================================
+    // These values come from the URL and drive the UI highlighting.
+    // Defaults to chapter 1, verse 1 for the base /gitacommentaries route.
     const currentChapter = (params.chapter as string) || "1";
     const currentVerse = (params.verse as string) || "1";
 
-    // PERSISTENT STATE: These stay in memory because the Layout doesn't unmount on navigation
+    // ========================================================================
+    // PERSISTENT UI STATE (Mobile Accordion Controls)
+    // ========================================================================
+    // These states survive navigation because the Layout component never unmounts.
+    // This is the KEY FEATURE that makes the mobile UX smooth - users don't have
+    // to re-open the navigation accordion after every verse change.
     const [isChapterExpanded, setIsChapterExpanded] = useState(false);
     const [isVerseExpanded, setIsVerseExpanded] = useState(false);
 
-    // Get all chapters
+    // ========================================================================
+    // DATA EXTRACTION
+    // ========================================================================
+    // Extract sorted chapter keys for navigation grid
     const chapterKeys = Object.keys(gitaData.chapters).sort((a, b) => Number(a) - Number(b));
 
-    // Get verses for the selected chapter (handle safety if chapter invalid)
+    // Get verses for the currently selected chapter
+    // Defensive fallback to chapter 1 if URL contains invalid chapter number
     const currentChapterData = (gitaData.chapters as any)[currentChapter] || (gitaData.chapters as any)["1"];
     const verseKeys = Object.keys(currentChapterData.verses).sort((a, b) => Number(a) - Number(b));
 
+    /**
+     * Navigate to a specific chapter and verse
+     * 
+     * @param {string} chap - Target chapter number
+     * @param {string} ver - Target verse number
+     * 
+     * Note: scroll: false keeps the sidebar position stable during navigation,
+     * which is essential for the continuous reading experience.
+     */
     const navigateTo = (chap: string, ver: string) => {
-        // scroll: false keeps the user's viewport position stable
         router.push(`/gitacommentaries/${chap}/${ver}`, { scroll: false });
     };
 

@@ -1,25 +1,53 @@
+/**
+ * Gita Template Page - UNUSED/PROTOTYPE
+ * 
+ * ⚠️ NOTE: This file appears to be an unused page template or early prototype.
+ * It is NOT connected to any active route in the application.
+ * 
+ * The actual Bhagavad Gita functionality is implemented in:
+ * - /books/bhagwatgita → Book detail page
+ * - /gitacommentaries → Commentary reading interface
+ * 
+ * This file could serve as a reference for:
+ * - Simple promotional landing page designs
+ * - Standalone feature cards
+ * - Single-book showcase templates
+ * 
+ * Consider removing this file if it's not needed to reduce codebase complexity.
+ * 
+ * @module gita-template
+ * @deprecated Not actively used - see /books/bhagwatgita instead
+ */
+
 import Navbar from "@/components/Navbar";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function home(){
-    return(
+/**
+ * Home Component - Template Version
+ * 
+ * Note: Function name 'home' should be capitalized ('Home') for React component
+ * naming conventions, but left as-is since file is not actively used.
+ */
+export default function home() {
+    return (
         <main>
+            {/* Empty section - likely placeholder for hero content */}
             <section>
-                
-            </section> 
-            
+
+            </section>
+
             {/* Bhagavad Gita Reading Section */}
             <section className="py-16 px-4">
                 <div className="max-w-6xl mx-auto">
                     <h2 className="text-3xl font-bold text-center mb-12 text-veda-primary">
                         Explore the Bhagavad Gita
                     </h2>
-                    
+
                     <div className="flex justify-center">
-                        <Link 
-                            href="/books/bhagwatgita" 
+                        <Link
+                            href="/books/bhagwatgita"
                             className="block group transition-all duration-300 hover:scale-105 max-w-sm"
                             aria-label="Read Shrimad Bhagwat Gita by Vyasa"
                         >
@@ -35,15 +63,15 @@ export default function home(){
                                         loading="lazy"
                                     />
                                 </div>
-                                
+
                                 <h3 className="text-2xl font-semibold text-white text-center group-hover:text-veda-accent transition-colors mb-2">
                                     Shrimad Bhagwat Gita
                                 </h3>
-                                
+
                                 <p className="text-sm text-gray-300 text-center group-hover:text-gray-200 transition-colors mb-4">
                                     by Vyasa
                                 </p>
-                                
+
                                 <div className="text-center">
                                     <span className="inline-block bg-amber-600/90 backdrop-blur-sm text-white text-sm font-semibold px-4 py-2 rounded-full border border-white/20">
                                         COMING SOON

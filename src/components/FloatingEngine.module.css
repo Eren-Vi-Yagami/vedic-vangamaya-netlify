@@ -1,0 +1,13 @@
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.engine-container {
+  /* Use the keyframe defined above */
+  animation: spin-slow 30s linear infinite;
+}
