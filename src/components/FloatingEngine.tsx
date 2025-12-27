@@ -9,10 +9,18 @@ import styles from "./FloatingEngine.module.css";
  * and a static foreground image (Tilak).
  * Rotation speed is set to 1 RPM (60s) via CSS module.
  */
-export default function FloatingEngine() {
-    return (
-        <Link href="/about_engine" className="fixed bottom-4 right-4 z-50 max-sm:hidden max-md:hidden flex items-center space-x-3 bg-black/20 backdrop-blur-sm rounded-lg px-3 py-2 border border-white/10 group hover:bg-black/30 transition-all">
+interface FloatingEngineProps {
+    className?: string;
+}
 
+export default function FloatingEngine({ className }: FloatingEngineProps) {
+    const defaultClasses = "fixed bottom-4 right-4 z-50 flex items-center space-x-3 bg-black/20 backdrop-blur-sm rounded-lg px-3 py-2 border border-white/10 group hover:bg-black/30 transition-all";
+
+    return (
+        <Link
+            href="/about_engine"
+            className={className || `${defaultClasses} max-sm:hidden max-md:hidden`}
+        >
             {/* Logo stack */}
             <div className="relative w-[60px] h-[60px]">
 

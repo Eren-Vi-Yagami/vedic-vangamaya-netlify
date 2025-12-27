@@ -15,8 +15,7 @@
  */
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { Playfair_Display } from "next/font/google";
+import { Inter, Playfair_Display, Ubuntu } from "next/font/google";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import FloatingEngine from "@/components/FloatingEngine";
@@ -37,6 +36,13 @@ const inter = Inter({
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-heading",
+  display: "swap",
+});
+
+const ubuntu = Ubuntu({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-ubuntu",
   display: "swap",
 });
 
@@ -83,7 +89,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${playfair.variable}`}
+      className={`${inter.variable} ${playfair.variable} ${ubuntu.variable}`}
       suppressHydrationWarning // Prevents hydration mismatch warnings
     >
       <body className="bg-background text-foreground antialiased relative">

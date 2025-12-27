@@ -109,7 +109,6 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-body);
-  font-family: var(--font-asap);
   /* Default to Serif for that book-like feel */
   line-height: 1.6;
   /* Comfortable reading line height */

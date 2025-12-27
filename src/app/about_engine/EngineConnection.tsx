@@ -24,7 +24,7 @@ export function EngineConnection() {
 
             {/* 1. SOURCE: DSM Logo (The Company) */}
             <div className="relative z-10 flex flex-col items-center gap-2">
-                <div className="relative p-4 bg-white/80 rounded-full shadow-lg shadow-blue-900/10 border border-blue-100">
+                <div className="relative p-4 bg-white rounded-full shadow-lg shadow-blue-900/10 border border-blue-100">
                     <Image
                         src="/images/DSM_logo.png"
                         alt="DSM Logic"
@@ -34,7 +34,7 @@ export function EngineConnection() {
                     />
                     {/* Source Pulse Ring */}
                     <motion.div
-                        animate={{ scale: [1, 1.2, 1], opacity: [0.5, 0, 0.5] }}
+                        animate={{ scale: [1, 1.2, 1], opacity: [0, 1, 0] }}
                         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                         className="absolute inset-0 rounded-full border border-blue-400"
                     />

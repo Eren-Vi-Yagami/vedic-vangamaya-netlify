@@ -5,11 +5,13 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  fontFamily: {
-    asap: ["var(--font-asap)"],
-  },
   theme: {
     extend: {
+      fontFamily: {
+        ubuntu: ["var(--font-ubuntu)"],
+        quicksand: ["var(--font-quicksand)"],
+        saira: ["var(--font-saira)"],
+      },
       keyframes: {
         spinSlow: {
           "0%": { transform: "rotate(0deg)" },

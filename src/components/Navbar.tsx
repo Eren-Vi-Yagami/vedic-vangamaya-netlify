@@ -30,6 +30,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import FloatingEngine from "./FloatingEngine";
 
 
 /**
@@ -179,6 +180,9 @@ const Navbar = () => {
                                 className={`block w-6 h-0.5 bg-current transition-all duration-300 mt-1 ${isOpen ? "-rotate-45 -translate-y-1.5" : ""
                                     }`}
                             />
+                            <span
+
+                            />
                         </div>
                     </button>
                 </div>
@@ -208,6 +212,10 @@ const Navbar = () => {
                                 {item.label}
                             </Link>
                         ))}
+                    </div>
+                    {/* Floating Engine in Mobile Menu */}
+                    <div className="px-3 pb-6 mt-4 border-t border-veda-muted/10 pt-6">
+                        <FloatingEngine className="relative flex items-center space-x-3 bg-veda-primary/5 backdrop-blur-sm rounded-xl px-4 py-3 border border-veda-muted/20 group hover:bg-veda-primary/10 transition-all w-full justify-center" />
                     </div>
                 </div>
             </div>
