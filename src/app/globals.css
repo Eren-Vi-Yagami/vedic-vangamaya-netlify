@@ -26,15 +26,22 @@
  */
 :root {
   /* Core theme colors */
-  --background: #000000;      /* Warm parchment off-white - evokes ancient manuscripts */
-  --foreground: #1c1917;      /* Deep charcoal (Stone 900) - maximum readability */
-  
+  --background: #000000;
+  /* Warm parchment off-white - evokes ancient manuscripts */
+  --foreground: #1c1917;
+  /* Deep charcoal (Stone 900) - maximum readability */
+
   /* Vaidika-inspired palette */
-  --veda-primary: #1c1917;    /* Dark stone - primary text and elements */
-  --veda-accent: #d97706;     /* Muted Saffron/Amber - sacred color, highlights */
-  --veda-muted: #78716c;      /* Stone 500 - secondary text and borders */
-  --veda-bg-dark: #0c0a09;    /* Deepest stone for dark mode backgrounds */
-  --veda-paper: #f5f5f4;      /* Light stone paper texture - card backgrounds */
+  --veda-primary: #1c1917;
+  /* Dark stone - primary text and elements */
+  --veda-accent: #d97706;
+  /* Muted Saffron/Amber - sacred color, highlights */
+  --veda-muted: #78716c;
+  /* Stone 500 - secondary text and borders */
+  --veda-bg-dark: #0c0a09;
+  /* Deepest stone for dark mode backgrounds */
+  --veda-paper: #f5f5f4;
+  /* Light stone paper texture - card backgrounds */
 }
 
 /**
@@ -52,7 +59,7 @@
   --color-veda-muted: var(--veda-muted);
   --color-veda-bg-dark: var(--veda-bg-dark);
   --color-veda-paper: var(--veda-paper);
-  
+
   /* Typography */
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui;
   --font-serif: "Merriweather", "Playfair Display", "Times New Roman", serif;
@@ -83,9 +90,12 @@ html {
  */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0c0a09;      /* Deep dark stone */
-    --foreground: #e7e5e4;    /* Warm grey/stone 200 */
-    --veda-paper: #1c1917;      /* Darker paper for dark mode cards */
+    --background: #0c0a09;
+    /* Deep dark stone */
+    --foreground: #e7e5e4;
+    /* Warm grey/stone 200 */
+    --veda-paper: #1c1917;
+    /* Darker paper for dark mode cards */
   }
 }
 
@@ -99,12 +109,16 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-body);
+  font-family: var(--font-asap);
   /* Default to Serif for that book-like feel */
   line-height: 1.6;
   /* Comfortable reading line height */
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-heading);
 }
 

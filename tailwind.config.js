@@ -5,6 +5,9 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  fontFamily: {
+    asap: ["var(--font-asap)"],
+  },
   theme: {
     extend: {
       keyframes: {
