@@ -65,7 +65,7 @@ export default function AboutEnginePage() {
                         <div className="flex flex-col items-center md:items-start">
                             <span className="text-sm uppercase tracking-widest opacity-60">Created BY</span>
                             <div className="text-[#FFCF17] text-2xl font-semibold mt-1">
-                                Virupaksha Ramaswamy Tripurari Siruvan
+                                Virupaksha Ramaswamy Tripurari Chandrayan
                             </div>
                         </div>
 

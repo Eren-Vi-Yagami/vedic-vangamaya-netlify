@@ -1,0 +1,55 @@
+{
+  "books": [
+    {
+      "id": "bhagavad-gita",
+      "title": {
+        "sa": "श्रीमद्भगवद्गीता",
+        "en": "Bhagavad Gita"
+      },
+      "authors": [
+        {
+          "id": "vyasa",
+          "name": "Ved Vyasa"
+        }
+      ],
+      "categories": [
+        { "id": "itihasa", "label": "Itihasa" },
+        { "id": "philosophy", "label": "Philosophy" }
+      ],
+      "sects": [
+        { "id": "vaishnava", "label": "Vaishnava" },
+        { "id": "vedanta", "label": "Vedanta" }
+      ],
+      "language": ["Sanskrit"],
+      "description": "A sacred dialogue between Krishna and Arjuna presenting the core teachings of Dharma, Bhakti, Jnana, and Karma Yoga.",
+      "status": "available",
+      "slug": "bhagavad-gita"
+    },
+
+    {
+      "id": "shiva-gita",
+      "title": {
+        "sa": "शिवगीता",
+        "en": "Shiva Gita"
+      },
+      "authors": [
+        {
+          "id": "Shiva",
+          "name": "Shiva"
+        }
+      ],
+      "categories": [
+        { "id": "purana", "label": "Purana" },
+        { "id": "philosophy", "label": "Philosophy" }
+      ],
+      "sects": [
+        { "id": "shaiva", "label": "Shaiva" },
+        { "id": "vedanta", "label": "Vedanta" }
+      ],
+      "language": ["Sanskrit"],
+      "description": "A philosophical dialogue between Lord Shiva and Rama, embedded in the Padma Purana, expounding Advaitic knowledge, devotion, and liberation.",
+      "status": "available",
+      "slug": "shiva-gita"
+    }
+  ]
+}

@@ -69,6 +69,22 @@ const Navbar = () => {
     }, []);
 
     /**
+     * Body Scroll Lock
+     * 
+     * Prevents the background page from scrolling when the mobile menu is open.
+     */
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "unset";
+        }
+        return () => {
+            document.body.style.overflow = "unset";
+        };
+    }, [isOpen]);
+
+    /**
      * Route Change Handler
      * 
      * Automatically closes the mobile menu when navigation occurs.
@@ -88,20 +104,21 @@ const Navbar = () => {
         { label: "Home", href: "/", description: "Return to the main page" },
         { label: "Library", href: "/library", description: "Browse our collection" },
         { label: "About", href: "/about", description: "Learn about our mission" },
+        { label: "Index", href: "/about", description: "Guide yourself to your need or intrest" },
         { label: "Contact", href: "/contact", description: "Get in touch with us" }
     ];
 
     return (
         <nav
             className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b ${isScrolled || isOpen
-                ? "bg-background/80 backdrop-blur-md border-veda-muted/20 shadow-sm"
+                ? "bg-background/80 max-lg:bg-black backdrop-blur-md border-veda-muted/20 shadow-sm"
                 : "bg-background/80 backdrop-blur-md border-veda-muted/20 md:bg-transparent md:border-transparent md:backdrop-blur-none"
                 }`}
             role="navigation"
             aria-label="Main navigation"
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-30 pl-1">
+                <div className="flex justify-between items-center max-sm:h-25 h-30 pl-1">
 
                     {/* 
                         ====================================================================
@@ -121,12 +138,15 @@ const Navbar = () => {
                                     alt="Vaidika Vangamaya Library Logo"
                                     width={80}
                                     height={80}
-                                    className="object-contain cursor-pointer w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20"
+                                    className="object-contain cursor-pointer sm:w-16 sm:h-16 md:w-20 md:h-20"
                                     priority
                                 />
                             </Link>
                             <span className="text-xl sm:text-2xl md:text-3xl lg:text-5xl hidden sm:block font-semibold text-veda-primary group-hover:text-veda-accent transition-colors">
                                 Vaidika Vangamaya
+                            </span>
+                            <span className="text-[20px] sm:text-2xl md:text-3xl lg:text-5xl lg:hidden  sm:hidden font-semibold text-veda-primary group-hover:text-veda-accent transition-colors">
+                                V. Vangamaya
                             </span>
                         </Link>
                     </div>
@@ -180,9 +200,6 @@ const Navbar = () => {
                                 className={`block w-6 h-0.5 bg-current transition-all duration-300 mt-1 ${isOpen ? "-rotate-45 -translate-y-1.5" : ""
                                     }`}
                             />
-                            <span
-
-                            />
                         </div>
                     </button>
                 </div>
@@ -195,7 +212,7 @@ const Navbar = () => {
                 */}
                 <div
                     id="mobile-menu"
-                    className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-[calc(100vh-100px)] opacity-100 overflow-y-auto" : "max-h-0 opacity-0 overflow-hidden"
                         }`}
                 >
                     <div className="py-4 space-y-1">
@@ -214,7 +231,7 @@ const Navbar = () => {
                         ))}
                     </div>
                     {/* Floating Engine in Mobile Menu */}
-                    <div className="px-3 pb-6 mt-4 border-t border-veda-muted/10 pt-6">
+                    <div className="px-3 pb-12 mt-4 border-t border-veda-muted/10 pt-6">
                         <FloatingEngine className="relative flex items-center space-x-3 bg-veda-primary/5 backdrop-blur-sm rounded-xl px-4 py-3 border border-veda-muted/20 group hover:bg-veda-primary/10 transition-all w-full justify-center" />
                     </div>
                 </div>
